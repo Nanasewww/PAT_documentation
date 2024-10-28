@@ -27,7 +27,7 @@ PAT provides a range of templates to simplify the character initialization proce
 
 {% stepper %}
 {% step %}
-### Find a Character yout like one of the demos
+### Find a Character you like from the demos
 
 
 {% endstep %}

@@ -15,6 +15,7 @@
 ## Tutorial
 
 * [Tutorial Outline](tutorial/tutorial-outline.md)
+* [Installation](tutorial/installation.md)
 * [Character](tutorial/character/README.md)
   * [Create a Character](tutorial/character/create-a-character.md)
 * [Attribute](tutorial/attribute/README.md)
@@ -34,6 +35,7 @@
 * [Effect](tutorial/effect/README.md)
   * [Create an Effect](tutorial/effect/create-an-effect.md)
   * [Apply Effects](tutorial/effect/apply-effects.md)
+* [Multiplayer](tutorial/multiplayer.md)
 
 ## Getting Started
 
