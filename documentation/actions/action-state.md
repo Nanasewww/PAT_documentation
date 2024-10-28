@@ -25,7 +25,7 @@ An <mark style="color:orange;">**Action State**</mark> is the minimal state that
 
 <mark style="color:yellow;">(All following description assumes the described Action State named as State A)</mark>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-p9tvInwbfoQp8LMyLjCDoIEDHaDRcylXHZL9gSJ2Ng6TdXtSXx0zXwBXnCYjkIvQaz5lsWVpso6T5qtv_RMOiS54QdOo5rrX8Ca2ua9ppGgoV2MWFda3aErm6aYY4dNn3pcszf02LAjjCRJc7zU_22U?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Action State Inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-p9tvInwbfoQp8LMyLjCDoIEDHaDRcylXHZL9gSJ2Ng6TdXtSXx0zXwBXnCYjkIvQaz5lsWVpso6T5qtv_RMOiS54QdOo5rrX8Ca2ua9ppGgoV2MWFda3aErm6aYY4dNn3pcszf02LAjjCRJc7zU_22U?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Action State Inspector</p></figcaption></figure>
 
 ### Input Tag
 

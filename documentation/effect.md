@@ -21,11 +21,11 @@ layout:
 
 By default, an Effect has main tags. Once applied, it grants the tags it holds to the character, and these tags are removed when the Effect is removed.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfZOeNVaKSpec6KTW7GqSrjCktqIGfpOLes_8SpRn8WnKcv-8OsKVvLAqJzZSzSJUKQxyyNicUOdm2GqrweEDxZAYHcCh6g4WJ3H6yLA7T97C3OIbwE6zw1FTXQsnGUA2zmNpSdjxq42T-O1ZqJxOJU_d8V?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Example: Chain1 Effect</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfZOeNVaKSpec6KTW7GqSrjCktqIGfpOLes_8SpRn8WnKcv-8OsKVvLAqJzZSzSJUKQxyyNicUOdm2GqrweEDxZAYHcCh6g4WJ3H6yLA7T97C3OIbwE6zw1FTXQsnGUA2zmNpSdjxq42T-O1ZqJxOJU_d8V?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Example: Chain1 Effect</p></figcaption></figure>
 
 Effects also have components that modify their behavior in different ways. You can add an Effect Component by selecting a class from the dropdown and then clicking the 'Add Component' button.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWcpzZW0_JJvZAJ1E-yzASSmQkHgLp2mOKJU5rMS0oDrtUYmqPXo-sTZ_IEvsWnONCl6Vi54jTvtmcdmN0NsTqhI2NZXURHp5-5qwV-ik24yMnkGTREoxAwfhalQrvxWMWD8XRHk0EDECSj1mhoXtCQm4?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Select a component to add</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWcpzZW0_JJvZAJ1E-yzASSmQkHgLp2mOKJU5rMS0oDrtUYmqPXo-sTZ_IEvsWnONCl6Vi54jTvtmcdmN0NsTqhI2NZXURHp5-5qwV-ik24yMnkGTREoxAwfhalQrvxWMWD8XRHk0EDECSj1mhoXtCQm4?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Select a component to add</p></figcaption></figure>
 
 ***
 
@@ -37,13 +37,13 @@ Currently, there are two types of Effect components implemented in PAT: Effect L
 
 This component controls <mark style="color:orange;">**how long the Effect will remain on the character**</mark> on its own. It's a useful tool when you don't want to manage the Effect's lifespan manually.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeC7AM4ZvSlxxBtqh_tlTtSoETxOadl4pBefrGRRUjgkf_K9tTuUTpzKDSoLvLflpLwIzJx7doSpK560mS9Nv9J_ObpNg-yDJ24kk5sBHhiaFCK82fR2BaLPkx0cD2w0Fb0cgjvwxp3cGPCLQeox7GAkXU?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Effect Life Control inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeC7AM4ZvSlxxBtqh_tlTtSoETxOadl4pBefrGRRUjgkf_K9tTuUTpzKDSoLvLflpLwIzJx7doSpK560mS9Nv9J_ObpNg-yDJ24kk5sBHhiaFCK82fR2BaLPkx0cD2w0Fb0cgjvwxp3cGPCLQeox7GAkXU?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Effect Life Control inspector</p></figcaption></figure>
 
 ### Effect Mod Value
 
 This component <mark style="color:orange;">**influences the values of Attributes in various ways**</mark>. We will cover the details of Attributes later, but for now, it’s important to know that HP, Mana, Posture, Defense, and similar stats are all Attributes in PAT. Controlling Attributes generally means managing every non-action aspect of the game.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevO7zc68Hcp0_rTMHf1Z9HISORp0_tG4LzD7BUsHlovDHO5wiCso0WDmK5_pJOu42UZRlAwUZtVFvTOfteXcpV0EFHCHR4PVzzprwSfSjlduhVQc3DZp52FYMF1TYCn9DuNc0GIRPAhq3IIi5_JjNgkbQ?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Effect Mod Value inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevO7zc68Hcp0_rTMHf1Z9HISORp0_tG4LzD7BUsHlovDHO5wiCso0WDmK5_pJOu42UZRlAwUZtVFvTOfteXcpV0EFHCHR4PVzzprwSfSjlduhVQc3DZp52FYMF1TYCn9DuNc0GIRPAhq3IIi5_JjNgkbQ?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Effect Mod Value inspector</p></figcaption></figure>
 
 <details>
 
@@ -117,13 +117,13 @@ Currently, there are two types of Effect components implemented in PAT: Effect L
 
 Using ScriptableObjects is preferred for prototyping and designing game logic. You can find many mods, such as _Add Effect_ or _Add Effect On Hit_, created this way.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdRKSRHET97Rw7YtAg3Gtj_5NfqDtuk1t20ykF9HSsUy5VTUXJbhDcRxdUuY4FaSx5w1a5TRioC-TcXpO12e8TrEEBaYxHWHf7FyT-o6dyLcNwW12uwngmh3iLvBh8Jp8exTReejAMzzpNHUoZ36hc-cQ?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Creating new Effect in Unity editor</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdRKSRHET97Rw7YtAg3Gtj_5NfqDtuk1t20ykF9HSsUy5VTUXJbhDcRxdUuY4FaSx5w1a5TRioC-TcXpO12e8TrEEBaYxHWHf7FyT-o6dyLcNwW12uwngmh3iLvBh8Jp8exTReejAMzzpNHUoZ36hc-cQ?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Creating new Effect in Unity editor</p></figcaption></figure>
 
 ### Implement custom Effect
 
 Script generation is preferred for dynamic hit processing. Modifiers like _Block Mod_ and _Attack Mod_ are typically implemented using this method.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcKfI2qQLWsm-Ku0v9gWQHm9nlDUhYNFMlckby2CpccfwXY1CrtrpkHo4ijAHaPD7kq7mqf91_4wTMa2jcLEgqe5XwgadGDzSELaVncjNC-hVK2YpCHYC2oU8gbKPl03fQZfXtn-T4ZyP2sKidaiRnCcumk?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Sample code for implementing new Effect</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcKfI2qQLWsm-Ku0v9gWQHm9nlDUhYNFMlckby2CpccfwXY1CrtrpkHo4ijAHaPD7kq7mqf91_4wTMa2jcLEgqe5XwgadGDzSELaVncjNC-hVK2YpCHYC2oU8gbKPl03fQZfXtn-T4ZyP2sKidaiRnCcumk?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Sample code for implementing new Effect</p></figcaption></figure>
 
 \
 

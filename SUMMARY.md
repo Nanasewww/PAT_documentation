@@ -4,12 +4,13 @@
 
 ## Documentation
 
-* [Tag](documentation/tag.md)
 * [Actions](documentation/actions/README.md)
   * [Action State](documentation/actions/action-state.md)
   * [State Modifier](documentation/actions/state-modifier.md)
   * [Move Set](documentation/actions/move-set.md)
+* [Tag](documentation/tag.md)
 * [Effect](documentation/effect.md)
+* [Attribute](documentation/attribute.md)
 
 ## Getting Started
 

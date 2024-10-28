@@ -23,7 +23,7 @@ TODO
 
 ## Inspector
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUlqElHxgw3K3Lzo_iYw78R6vN23V8fiOilgAolVCOvAfYOVLUGrVBqjcPZ8hrIquOv42nfYsJosIx9JxdMO7DPeeje6b7agwU4xh8-DeWZ7fcHeh5S7aAVpx7GeOW2TIW1N0sO3Oa3txZtUC_vQ6LfyP9?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Move Set inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUlqElHxgw3K3Lzo_iYw78R6vN23V8fiOilgAolVCOvAfYOVLUGrVBqjcPZ8hrIquOv42nfYsJosIx9JxdMO7DPeeje6b7agwU4xh8-DeWZ7fcHeh5S7aAVpx7GeOW2TIW1N0sO3Oa3txZtUC_vQ6LfyP9?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Move Set inspector</p></figcaption></figure>
 
 ### Auto Collect
 

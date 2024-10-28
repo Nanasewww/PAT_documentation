@@ -25,7 +25,7 @@ Most modifier scripts are named as _**XXXMod**_, where <mark style="color:orange
 
 ## Inspector Details
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJHgu82STMVeajloMlYkejVXe7lKRJ7aoo5KXf1YRVYpuCvVazGJH3OTYHSdUV6TRtVnZwd59ig-clyJNm-aldzQ2kxuFa--xHXBb2SaA-JCIqfT3J9tRgL1Ua8dT87dJrHLGfUqNARC-oVloIHAOEWbIV?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>State Modifier inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJHgu82STMVeajloMlYkejVXe7lKRJ7aoo5KXf1YRVYpuCvVazGJH3OTYHSdUV6TRtVnZwd59ig-clyJNm-aldzQ2kxuFa--xHXBb2SaA-JCIqfT3J9tRgL1Ua8dT87dJrHLGfUqNARC-oVloIHAOEWbIV?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>State Modifier inspector</p></figcaption></figure>
 
 ### Mod Name
 
@@ -76,13 +76,13 @@ Apart from the functionality of modifiers themselves, you can <mark style="color
 
 ### Grant Tag Mod
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Ye_P4ij_0BBCm18YbYsIqGRLKaW8lDMNgw582DmXSGT2G9-og16aaiRFEMWUKL4CbOmDeRKDPLuCfAr3n9T8ec2AlJ7OT2wqbawXccdxHX2fNJA6FMt8hwm5mmYz8hdOXBudldeScrEI7v0uu1MxV7hk?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Grant Tag Mod inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3Ye_P4ij_0BBCm18YbYsIqGRLKaW8lDMNgw582DmXSGT2G9-og16aaiRFEMWUKL4CbOmDeRKDPLuCfAr3n9T8ec2AlJ7OT2wqbawXccdxHX2fNJA6FMt8hwm5mmYz8hdOXBudldeScrEI7v0uu1MxV7hk?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Grant Tag Mod inspector</p></figcaption></figure>
 
 When the character is in an Action State, it will hold all tags listed in the State’s Main Tag. Using this mod, it allows an Action State to <mark style="color:orange;">**have extra Tags**</mark> for further State transition.
 
 ### Animation Montage Mod
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf04Rz2AkmRVPAgAOCm-s8h_pkd_1OabR7E8g-u9cEa1x2nIBwML5lyDbsqgf-57_guw-ogW9DYWZ9pT2DCgtTksmL_oaYeDy1Fn_ySJze1FbYGjDIusPNlS3SJss8FjilCZadL2OGajIXFcst14EsM-v22?key=wjgYipemgHjXa5pb_ZH-6A" alt="" width="563"><figcaption><p>Animaton Montage Mod inspector</p></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf04Rz2AkmRVPAgAOCm-s8h_pkd_1OabR7E8g-u9cEa1x2nIBwML5lyDbsqgf-57_guw-ogW9DYWZ9pT2DCgtTksmL_oaYeDy1Fn_ySJze1FbYGjDIusPNlS3SJss8FjilCZadL2OGajIXFcst14EsM-v22?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Animaton Montage Mod inspector</p></figcaption></figure>
 
 This Mod <mark style="color:orange;">**plays an animation state**</mark> in the model's animator, and uses crossfade to create transitions.&#x20;
 
