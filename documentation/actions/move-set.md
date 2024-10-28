@@ -17,7 +17,7 @@ layout:
 
 ## Definition
 
-TODO <mark style="color:blue;">@Jinyi</mark>
+A set of Action States that can be loaded onto Characters
 
 ***
 
@@ -31,11 +31,7 @@ Collect all the states attached to its child objects at run time, so you don’t
 
 ### Owning States
 
-TODO
-
-### Attributes
-
-TODO
+List all Action States inside this Move Set, if you are not enabling Auto Collect, you should add all States manually.
 
 
 

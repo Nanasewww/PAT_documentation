@@ -45,67 +45,45 @@ This component <mark style="color:orange;">**influences the values of Attributes
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevO7zc68Hcp0_rTMHf1Z9HISORp0_tG4LzD7BUsHlovDHO5wiCso0WDmK5_pJOu42UZRlAwUZtVFvTOfteXcpV0EFHCHR4PVzzprwSfSjlduhVQc3DZp52FYMF1TYCn9DuNc0GIRPAhq3IIi5_JjNgkbQ?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Effect Mod Value inspector</p></figcaption></figure>
 
-<details>
+## **Inspector**
 
-<summary>Resource Tag</summary>
+### **Resource Tag**
 
 The Effect Mod Value will search for <mark style="color:orange;">**an Attribute with the same tag**</mark> and influence it.
 
-</details>
-
-<details>
-
-<summary>Mod Target</summary>
+### **Mod Target**
 
 Specifies <mark style="color:orange;">**whether it modifies the Attribute's value or the auto-recovery rate**</mark> of the Attribute.
 
-</details>
+### **Mod Pattern**
 
-<details>
+#### **To Base Value**&#x20;
 
-<summary>Mod Pattern</summary>
+Adds or subtracts from the actual base value, commonly used for damage, mana, or stamina.&#x20;
 
-*   **To Base Value**&#x20;
+#### **Add**&#x20;
 
-    Adds or subtracts from the actual base value, commonly used for damage, mana, or stamina.&#x20;
+Increases or decreases the final value but will no longer influence it once the Effect is removed. This is useful for buffs like a speed boost.
 
-<!---->
+#### **Add Multi**
 
-*   **Add**&#x20;
+Multiplies the value. Multiple Add Multis will stack together before the calculation. Similar to Add, it will no longer influence the final value once removed.
 
-    Increases or decreases the final value, but will no longer influence it once the Effect is removed. This is useful for buffs like a speed boost.
+#### **Final Multi**
 
-<!---->
+Unlike Add Multi, this does not stack. It multiplies the value directly.
 
-*   **Add Multi**
+#### **Override**&#x20;
 
-    Multiplies the value. Multiple Add Multis will stack together before the calculation. Similar to Add, it will no longer influence the final value once removed.
+The value is directly replaced by the override value and will no longer influence the final value once the Effect is removed. Useful for effects like reducing movement speed to zero.
 
-<!---->
+#### **Level**&#x20;
 
-*   **Final Multi**
+Not used by default, but you can implement special logic by overriding the Attribute class.
 
-    Unlike Add Multi, this does not stack. It multiplies the value directly.
+#### **Order**&#x20;
 
-<!---->
-
-*   **Override**&#x20;
-
-    The value is directly replaced by the override value and will no longer influence the final value once the Effect is removed. Useful for effects like reducing movement speed to zero.
-
-<!---->
-
-*   **Level**&#x20;
-
-    Not used by default, but you can implement special logic by overriding the Attribute class.
-
-<!---->
-
-*   **Order**&#x20;
-
-    Determines the priority between multiple Effect Mod Values. If both have the same order, the most recently added Effect will take precedence.&#x20;
-
-</details>
+Determines the priority between multiple Effect Mod Values. If both have the same order, the most recently added Effect will take precedence.&#x20;
 
 \
 

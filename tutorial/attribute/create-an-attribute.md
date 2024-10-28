@@ -15,11 +15,11 @@ layout:
 
 # Create an Attribute
 
-You may create a child object under your character object, and it will try to add itself to the character’s attribute list by runtime.
+You may create a child object with Attribute Script under your character object, and it will try to add itself to the character’s attribute list by runtime.
 
-TODO
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
