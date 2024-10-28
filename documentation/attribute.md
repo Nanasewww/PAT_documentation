@@ -41,7 +41,7 @@ The minimum value the Attribute can hold.
 
 The starting value of the Attribute.
 
-### **Start Recovery Speed**
+### **Start Recover Speed**
 
 The rate at which the base value recovers or decreases. This can also be modified by an Effect.
 
