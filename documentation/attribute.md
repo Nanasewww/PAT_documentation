@@ -21,6 +21,8 @@ An Attribute is a Mono Behavior that holds a value.&#x20;
 
 Health, Posture, Mana, and Stamina are all examples of Attributes. Since Attributes can be influenced by Effects in an easy and stable way without tightly coupling your code, we encourage you to use Attributes for any values you want to change dynamically during gameplay.
 
+***
+
 ## Inspector
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdzH0lWMXRFekXlnYJLnE6aSp3BuYEL3pCnC4vF-3j2jA6vYu2E9ZNVjF-GVsSuELzg3jdu9L1UEpSoEYtowopJg0KJ2tGNJar7Kaq5mQJ-k-SoAlFjIXIQVAcL2S-6trp8_2hV194AEHu2ywtVpRb2T-87?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Attribute inspector</p></figcaption></figure>
@@ -52,6 +54,8 @@ The method of recovery for the Attribute.
 ### **Can Recover**
 
 This should ideally be removed. The recommended way to disable recovery is by using an override Effect Mod Value to set the Recover Speed to 0.
+
+***
 
 ## Usage
 

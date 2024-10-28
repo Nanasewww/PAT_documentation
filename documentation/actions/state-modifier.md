@@ -19,7 +19,7 @@ layout:
 
 <mark style="color:orange;">**State Modifiers**</mark> are attached to Action States. They are triggered during the state and grants different functionality to Action States. For example, controlling animations, activating hitboxes, modifying movement speed, etc.&#x20;
 
-Most modifier scripts are named as _**XXXMod**_, where <mark style="color:orange;">**Mod**</mark> stands for <mark style="color:orange;">**MODifier**</mark>. Each Modifier has a Begin and an End Timing Attribute, that defines when will this mod get activated, as well as the duration of it.
+Most modifier scripts are named as _**XXXMod**_, where <mark style="color:orange;">**Mod**</mark> stands for <mark style="color:orange;">**MODifier**</mark>. Each Modifier has a Begin and an End Timing Attribute, which defines when will this mod get activated, as well as the duration of it.
 
 ***
 
@@ -88,7 +88,7 @@ This Mod <mark style="color:orange;">**plays an animation state**</mark> in the 
 Please note that this <mark style="color:red;">**ONLY**</mark> works with animator that structures in PAT’s template. If you need your own way to implement the animator, you might want to have your own version of Animation Modifier.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Reference Animation Controller** <a href="#state-name" id="state-name"></a>
 
@@ -98,7 +98,7 @@ Drag in the Animation Controller that contains the animations.
 
 Choose the layer that contains your desired Animation.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Animation State** <a href="#state-name" id="state-name"></a>
 

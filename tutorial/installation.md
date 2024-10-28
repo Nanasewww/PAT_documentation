@@ -1,5 +1,5 @@
 ---
-icon: folder-arrow-down
+icon: arrow-down-to-arc
 ---
 
 # Installation
@@ -8,7 +8,7 @@ icon: folder-arrow-down
 {% step %}
 ### Create a 3D URP project
 
-
+Please use Unity Version **2022.3.32f1**
 {% endstep %}
 
 {% step %}

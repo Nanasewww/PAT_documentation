@@ -33,19 +33,17 @@ Effects also have components that modify their behavior in different ways. You c
 
 Currently, there are two types of Effect components implemented in PAT: Effect Life Control and Effect Mod Value.
 
-### Effect Life Control
+## Effect Life Control
 
 This component controls <mark style="color:orange;">**how long the Effect will remain on the character**</mark> on its own. It's a useful tool when you don't want to manage the Effect's lifespan manually.
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeC7AM4ZvSlxxBtqh_tlTtSoETxOadl4pBefrGRRUjgkf_K9tTuUTpzKDSoLvLflpLwIzJx7doSpK560mS9Nv9J_ObpNg-yDJ24kk5sBHhiaFCK82fR2BaLPkx0cD2w0Fb0cgjvwxp3cGPCLQeox7GAkXU?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Effect Life Control inspector</p></figcaption></figure>
 
-### Effect Mod Value
+## Effect Mod Value
 
 This component <mark style="color:orange;">**influences the values of Attributes in various ways**</mark>. We will cover the details of Attributes later, but for now, it’s important to know that HP, Mana, Posture, Defense, and similar stats are all Attributes in PAT. Controlling Attributes generally means managing every non-action aspect of the game.
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXevO7zc68Hcp0_rTMHf1Z9HISORp0_tG4LzD7BUsHlovDHO5wiCso0WDmK5_pJOu42UZRlAwUZtVFvTOfteXcpV0EFHCHR4PVzzprwSfSjlduhVQc3DZp52FYMF1TYCn9DuNc0GIRPAhq3IIi5_JjNgkbQ?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Effect Mod Value inspector</p></figcaption></figure>
-
-## **Inspector**
 
 ### **Resource Tag**
 
