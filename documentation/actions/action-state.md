@@ -35,6 +35,10 @@ An <mark style="color:orange;">**Action State**</mark> is the minimal state that
 
 You can assign tags to player input, and every time the character receives an input, it will try to trigger states using that specific tag.
 
+{% content-ref url="../../tutorial/player/input.md" %}
+[input.md](../../tutorial/player/input.md)
+{% endcontent-ref %}
+
 ### Can Repeat
 
 If checked, State A <mark style="color:orange;">**can re-enter itself**</mark> if other conditions are satisfied (details below). Otherwise, re-entering the same state is prohibited by default.
@@ -61,6 +65,10 @@ State A will <mark style="color:orange;">**auto exit after this given amount of 
   If another State tries to enter when character is in State A, and at least one of its Main Tags is listed in State A’s Prohibit Tags, it cannot be entered.
 * **Self-Prohibit Tags**\
   If the character is in another State and is currently holding any Tag listed in State A’s Self-Prohibit Tags, State A cannot be entered.
+
+{% content-ref url="../tag.md" %}
+[tag.md](../tag.md)
+{% endcontent-ref %}
 
 ### Special
 

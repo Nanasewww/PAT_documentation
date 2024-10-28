@@ -23,7 +23,7 @@ If you are trying to control your state modifiers by animation events, you will 
 
 After selecting an Animation Clip, you may use the circled button to add a trigger animation event to an animation clip. This is used for modifiers to track their begin and end timing.
 
-If you click onto the events, you may find this in the inspector. You should choose TriggerAnimationEvent from Model Handler. You need to have a Model Handler on the same object as the Animator. After that, you can set Int which is the index we use for the modifier's timing.It should be in ascending order on the timeline
+If you click onto the events, you may find this in the inspector. You should choose TriggerAnimationEvent from Model Handler. You need to have a Model Handler on the same object as the Animator. After that, you can set Int which is the index we use for the modifier's timing. It should be in ascending order on the timeline
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdw7YaWlWClwiENAaaEOkQYcrPU6bjgLsXWi0Fy9II1aaIbmTbKJ77FD_fjdDUhVE1UTrZuZZzx3bmn7vuDjw5MokQgXX2wFiepM7Q76XcUItZ8Ou0BObGiXSG9YNo4fe3wW-hFgayj0u5qLDp14XWbbls?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption></figcaption></figure>
 
