@@ -98,8 +98,6 @@ Force character to enter the Next State after the exit of State A instead of idl
 
 </details>
 
-\
-\
 
 
 
