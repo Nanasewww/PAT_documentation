@@ -5,6 +5,7 @@
 ## Documentation
 
 * [Action State](documentation/action-state.md)
+* [State Modifier](documentation/state-modifier.md)
 
 ## Getting Started
 
