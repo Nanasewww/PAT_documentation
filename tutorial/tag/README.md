@@ -21,5 +21,7 @@ layout:
 [tag.md](../../documentation/tag.md)
 {% endcontent-ref %}
 
-
+{% content-ref url="create-a-new-tag.md" %}
+[create-a-new-tag.md](create-a-new-tag.md)
+{% endcontent-ref %}
 

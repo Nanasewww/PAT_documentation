@@ -27,7 +27,7 @@ Health, Posture, Mana, and Stamina are all examples of Attributes. Since Attribu
 
 ### **Resource Tag**
 
-The identifier for the Attribute. Effects and Use Attribute Mod use this to find their target Attribute.
+The identifier for the Attribute. <mark style="color:orange;">Effects</mark> and <mark style="color:orange;">Use Attribute Mod</mark> use this to find their target Attribute.
 
 ### **Max Amount**
 

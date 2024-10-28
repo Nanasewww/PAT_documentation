@@ -15,24 +15,23 @@ layout:
 
 # Create a new Tag
 
-All tags are stored inside a script named GamePlayTag, you may edit it on your own need. It is a huge enum. Every Tag is represented by a name and a number.&#x20;
+All tags are stored inside a script named **GamePlayTag**, you may edit it on your own need. It is a huge Enum. Every Tag is represented by a name and a number.&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGVPzHPS-4zIor_eBzZSlLOlZ65surqwOlegWURgkVCKlQ5CthkCKkbRl4s8Q_6_29oF4etXPcSptVTgvph2uavXO0a-Fa7oT1CZxK1us7XP_WZHEQI_WcdzAkZquMyLz22CH3q-L0SyGyMTKTkan6Gdso?key=Rv96SXV0rCMH8N9lwXnGWw" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeI3LyalgJMG2ts7pQQx8U8rrg6RoGb_HmmpV9ysGZ-Wg4rTPf4qdT6s1TsLkf3rJa4-S1LF6g8zsmIae4dapNB5SiesRsVkw2QhsTBOu7fVf6DGM_ybx3eZZ20usIGGURDrK6fd-hA2Ss8dxeEPuVVQdCu?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption><p>Script View</p></figcaption></figure>
+
+Tags are toggled on the Action State component.
 
 You may also find the scriptable object named GamePlayTagHelper for non-script view.&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXciPJOrqn7TWpAzWrESQvEbmixLj2dziqOFxg1xgnJD0uIs9hP86zU2ZtLnv3JWQc3qPKlSwPYfqSXK4Fuf_hvzANUf_ZfdgnsTtm4mu3GTjU0xLE1vs_ls8DSBrs2D13Yn1qFzKySX7NqMHMrX08ngYS6V?key=Rv96SXV0rCMH8N9lwXnGWw" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdiQ8S429MtoXe9fSheGOHrfaDtfG1LRYrgU7QZUp7ohNfK28VFNN_ZZ2VMA5ImXyl9AMDm2D_LN3D_mvJctMqNii1V1bdlUohVwCkVmgfj4U5h0kVWf29PxGRY6EC7SzuCWu4ae6t_zd4aesCaJeSjBtxw?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption><p>Where the Helper is located</p></figcaption></figure>
 
 You have to right click in the inspector and choose “refresh” for your changes to be reflected. Any new tags added in the script will be put into “Other”. You need to manually copy & paste it into the folder you like.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSi-hADZ6GxgzRej0lw01qO79Nay5ltSDbldIMfa1BNr_S7ZHhuGu1LFriByW153eWGD353wGeEsEThksxNtyR6Kf2bKMY6hmD1GUv_M4T0pSXm41LSkPows8DN55UjET63PYVQxn9-5hlwn6vSBLQEdqc?key=Rv96SXV0rCMH8N9lwXnGWw" alt="" width="563"><figcaption></figcaption></figure>
+\
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAWNca3CR1rMC7B5B_dm-uyBESp3DUm9kfJMmuJlyW8GmYmpl-ptpGPB_440nyXuusIgNBRqbS60QD_7gXf55kq-QqwPQ0eSfFxAoIgFNr1dgc5P7LaCMr6rbKJ92NuAt4xzzyDEORtwav5UrqEnBPun7Y?key=Rv96SXV0rCMH8N9lwXnGWw" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJtywG1fZPzeoip5tPovfYnE-qUEFyL2NJFLIbRUnCOrsczy_ePj5HYb3Ko_kncirZ0ftN_Pu3is0o2h-hv_Rz2zwHIK0w2xAvt9KDJipYN75gXKNSIkvMrAYEVX6V332KnFZe8nSENVbR8PSNBHokL4CK?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdt3qG7ulS9Der5mOxqcJOfyXme32M1eUb9jEFreMu6-OQW9YYdVlEGmud0uMF2Zbor2GD7qTrTeJzoz2AVfhE_Q8A4MH-dxEyr3GIpEPHRR5uHyrDwsUQ8ElScCLJWmbGCwTMT_0qgkMuJGxiodeIFpm4K?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption><p>Copy, paste it to the folder you like, delete the original one</p></figcaption></figure>
 
 \
-Tags are toggled on the Action State component.
-
-
-
-
-
