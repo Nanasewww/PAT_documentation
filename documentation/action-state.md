@@ -29,7 +29,7 @@ An <mark style="color:orange;">**Action State**</mark> is the minimal state that
 
 ### Input Tag
 
-Signals to trigger the State A. For player controlled characters, it is decided by the Input Units on Player Component. \[PICTURE HERE] You can assign tags to player input, and everytime the character receives an input, it will try to trigger states using that specific tag.
+<mark style="color:orange;">**Signals to trigger the State A**</mark>**.** For player controlled characters, it is decided by the Input Units on Player Component. \[PICTURE HERE] You can assign tags to player input, and everytime the character receives an input, it will try to trigger states using that specific tag.
 
 ### Can Repeat
 
@@ -37,7 +37,7 @@ If checked, State A <mark style="color:orange;">**can re-enter itself**</mark> i
 
 ### Auto Exit Time
 
-State A will <mark style="color:red;">**auto exit after this given amount of time**</mark>. By default it will enter Idle state. Or you may assign a specific Next State. If set to 0, it will not try to auto exit.
+State A will <mark style="color:orange;">**auto exit after this given amount of time**</mark>. By default it will enter Idle state. Or you may assign a specific Next State. If set to 0, it will not try to auto exit.
 
 ### Tags
 

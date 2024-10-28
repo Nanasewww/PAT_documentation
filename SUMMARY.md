@@ -2,6 +2,10 @@
 
 * [Welcome](README.md)
 
+## Documentation
+
+* [Action State](documentation/action-state.md)
+
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
@@ -15,7 +19,3 @@
 * [Interactive blocks](basics/interactive-blocks.md)
 * [OpenAPI](basics/openapi.md)
 * [Integrations](basics/integrations.md)
-
-## Documentation
-
-* [Action State](documentation/action-state.md)
