@@ -32,7 +32,7 @@ If unchecked, this input will only be triggered once per press event. Otherwise,
 
 ### Input Buffer Time
 
-If this input cannot trigger any action immediately, how long will it stay in the input tag list? This will make your game's input windows more graceful.&#x20;
+The amount of time this input tag will stay in the input tag list if it cannot trigger any action immediately. This will make your game's input windows more graceful.&#x20;
 
 ***
 
