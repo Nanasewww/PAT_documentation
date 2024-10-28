@@ -1,5 +1,5 @@
 ---
-icon: hand-wave
+icon: pen
 cover: .gitbook/assets/pat.png
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: false
 ---
 
-# 🧡 Overview
+# Overview
 
 Penguin Action Toolkit new documentation site
 

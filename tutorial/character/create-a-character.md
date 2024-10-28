@@ -1,5 +1,5 @@
 ---
-icon: person
+icon: circle-chevron-right
 layout:
   title:
     visible: true
@@ -13,9 +13,13 @@ layout:
     visible: true
 ---
 
-# How to create a Character?
+# Create a Character
 
-There are many ways you can create a Character in PAT. Here we’ll cover the 3 recommended ones. For PAT beginners, we <mark style="color:red;">**HIGHLY**</mark> recommend using the first way - Copy from templates.
+There are many ways you can create a Character in PAT. Here we’ll cover the 3 recommended ones.&#x20;
+
+{% hint style="info" %}
+_For PAT beginners, we <mark style="color:red;">**HIGHLY**</mark> recommend using the first way - Copy from templates._
+{% endhint %}
 
 ## Copy from templates
 

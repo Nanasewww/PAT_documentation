@@ -107,24 +107,6 @@ Specifies <mark style="color:orange;">**whether it modifies the Attribute's valu
 
 </details>
 
-***
-
-## Effect Creation
-
-Currently, there are two types of Effect components implemented in PAT: Effect Life Control and Effect Mod Value. To create an Effect, you can either <mark style="color:orange;">**create a ScriptableObject asset in your project**</mark> or <mark style="color:orange;">**implement your own custom Effect**</mark> by inheriting from the appropriate class.
-
-### Create a ScriptableObject
-
-Using ScriptableObjects is preferred for prototyping and designing game logic. You can find many mods, such as _Add Effect_ or _Add Effect On Hit_, created this way.
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdRKSRHET97Rw7YtAg3Gtj_5NfqDtuk1t20ykF9HSsUy5VTUXJbhDcRxdUuY4FaSx5w1a5TRioC-TcXpO12e8TrEEBaYxHWHf7FyT-o6dyLcNwW12uwngmh3iLvBh8Jp8exTReejAMzzpNHUoZ36hc-cQ?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Creating new Effect in Unity editor</p></figcaption></figure>
-
-### Implement custom Effect
-
-Script generation is preferred for dynamic hit processing. Modifiers like _Block Mod_ and _Attack Mod_ are typically implemented using this method.
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcKfI2qQLWsm-Ku0v9gWQHm9nlDUhYNFMlckby2CpccfwXY1CrtrpkHo4ijAHaPD7kq7mqf91_4wTMa2jcLEgqe5XwgadGDzSELaVncjNC-hVK2YpCHYC2oU8gbKPl03fQZfXtn-T4ZyP2sKidaiRnCcumk?key=wjgYipemgHjXa5pb_ZH-6A" alt=""><figcaption><p>Sample code for implementing new Effect</p></figcaption></figure>
-
 \
 
 

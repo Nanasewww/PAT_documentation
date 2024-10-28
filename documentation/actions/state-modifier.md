@@ -86,7 +86,9 @@ When the character is in an Action State, it will hold all tags listed in the St
 
 This Mod <mark style="color:orange;">**plays an animation state**</mark> in the model's animator, and uses crossfade to create transitions.&#x20;
 
+{% hint style="info" %}
 Please note that this <mark style="color:red;">**ONLY**</mark> works with animator that structures in PAT’s template. If you need your own way to implement the animator, you might want to have your own version of Animation Modifier.
+{% endhint %}
 
 <details>
 
