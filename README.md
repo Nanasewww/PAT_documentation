@@ -18,9 +18,9 @@ layout:
     visible: false
 ---
 
-# Welcome
+# 🧡 Overview
 
-Penguin Action Toolkit new documentation site.
+Penguin Action Toolkit new documentation site
 
 ### Find more details about:
 

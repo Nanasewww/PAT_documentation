@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [🧡 Overview](README.md)
 
 ## Documentation
 
@@ -9,8 +9,13 @@
   * [State Modifier](documentation/actions/state-modifier.md)
   * [Move Set](documentation/actions/move-set.md)
 * [Tag](documentation/tag.md)
-* [Effect](documentation/effect.md)
 * [Attribute](documentation/attribute.md)
+* [Effect](documentation/effect.md)
+
+## Tutorial
+
+* [Create Character](tutorial/create-character/README.md)
+  * [How to create a Character?](tutorial/create-character/how-to-create-a-character.md)
 
 ## Getting Started
 
