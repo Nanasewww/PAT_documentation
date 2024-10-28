@@ -1,5 +1,5 @@
 ---
-icon: arrows-rotate-reverse
+icon: circle-chevron-right
 layout:
   title:
     visible: true
