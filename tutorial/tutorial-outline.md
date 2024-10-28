@@ -1,5 +1,6 @@
 ---
 icon: list-radio
+hidden: true
 layout:
   title:
     visible: true
@@ -14,6 +15,56 @@ layout:
 ---
 
 # Tutorial Outline
+
+<details>
+
+<summary><a href="character/">Character</a></summary>
+
+* [Create a Character](character/create-a-character.md)
+
+</details>
+
+<details>
+
+<summary>Attribute</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Animation</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Tag</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Effect</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>Action State &#x26; Modifier</summary>
+
+
+
+</details>
+
+
 
 ## Character
 
