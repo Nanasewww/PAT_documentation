@@ -33,7 +33,7 @@ _Typically, the current attribute amount needs to be <mark style="color:orange;"
   How much a character needs to cost for entering this state. This amount will be subtracted from the current amount.
 * **Can Over Use**\
   Even if the current attribute amount is less than the required amount, as long as it is greater than 0, it can still be triggered, and will set the current amount to 0.
-* **Be Recovery**\
+* **Ban Recovery**\
   If checked, the specified attribute will not start its recovery while the Agent is still in this Action State.
 
 ### Learn by Doing
