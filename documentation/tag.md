@@ -23,6 +23,12 @@ T[ag system](#user-content-fn-1)[^1] is essential to PAT. <mark style="color:ora
 [create-a-new-tag.md](../tutorial/tag/create-a-new-tag.md)
 {% endcontent-ref %}
 
+## Tag Container
+
+At run time, Character will automatically add a Tag Container Component to itself. This stores all the Tags that a character is currently holding and is updated each frame. It is a very helpful tool for debugging if Tags were successfully granted.
+
+TODO: PIC
+
 
 
 [^1]: Not to be confused with Unity Tags

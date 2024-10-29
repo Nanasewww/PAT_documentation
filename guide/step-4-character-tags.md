@@ -8,7 +8,7 @@ In this article, we will discuss the Tag System and the Dynamic State Machine in
 
 ## Tags
 
-When you start the game, you can find a Tag Container Component Attached to the character object. It shows what Tags the character is holding. If you don't move at all, you will find the character holding an Idle Tag.
+When you start the game, you can find a Tag Container Component Attached to the character object. Note the Tag Container is only added to character at run time. It shows what Tags the character is holding. If you don't move at all, you will find the character holding an Idle Tag.
 
 TODO: PIC
 
