@@ -17,8 +17,8 @@ layout:
 
 There are many ways you can create a Character in PAT. Here we’ll cover the 3 recommended ones.&#x20;
 
-{% hint style="info" %}
-_For PAT beginners, we <mark style="color:red;">**HIGHLY**</mark> recommend using the first way - Copy from templates._
+{% hint style="warning" %}
+_For PAT beginners, we <mark style="color:red;">**HIGHLY RECOMMEND**</mark> using the first way - Copy from templates._
 {% endhint %}
 
 ## Copy from templates
@@ -29,29 +29,27 @@ PAT provides a range of templates to simplify the character initialization proce
 {% step %}
 ### Find a Character you like from the demos
 
-
+In demo scenes, you can find all the characters in <mark style="color:orange;">**\[===GamePlay===]**</mark>.&#x20;
 {% endstep %}
 
 {% step %}
 ### Locate its prefab
 
+Select the character you want to use in the scene Hierarchy. Right click on it and choose <mark style="color:orange;">**Prefab/Select Asset**</mark>**.**
 
+<img src="../../.gitbook/assets/image (9).png" alt="" data-size="original">
 {% endstep %}
 
 {% step %}
 ### Duplicate the prefab
 
-
+Copy and paste the selected prefab in Project panel.&#x20;
 {% endstep %}
 
 {% step %}
 ### Rename it to whatever you want your Character to be called
 
 
-{% endstep %}
-
-{% step %}
-### Make skeleton automatically
 {% endstep %}
 {% endstepper %}
 
@@ -60,6 +58,8 @@ PAT provides a range of templates to simplify the character initialization proce
 ## Create skeleton automatically
 
 TODO <mark style="color:blue;">@Minghao</mark>
+
+***
 
 ## Create from scratches
 

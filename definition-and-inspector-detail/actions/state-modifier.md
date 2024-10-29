@@ -17,7 +17,7 @@ layout:
 
 ## Definition
 
-<mark style="color:orange;">**State Modifiers**</mark> are attached to Action States. They are triggered during the state and grants different functionality to Action States. For example, controlling animations, activating hitboxes, modifying movement speed, etc.&#x20;
+<mark style="color:orange;">**State Modifiers**</mark> are attached to Action States. They are triggered during the state and grants different functionality to Action States. For example, <mark style="color:orange;">controlling animations, activating hitboxes, modifying movement speed</mark>, etc. Action States by themselves only form a logic chain of your character, they need State Modifiers for different functions.
 
 Most modifier scripts are named as _**XXXMod**_, where <mark style="color:orange;">**Mod**</mark> stands for <mark style="color:orange;">**MODifier**</mark>. Each Modifier has a Begin and an End Timing Attribute, which defines when will this mod get activated, as well as the duration of it.
 
@@ -88,7 +88,7 @@ This Mod <mark style="color:orange;">**plays an animation state**</mark> in the 
 Please note that this <mark style="color:red;">**ONLY**</mark> works with animator that structures in PAT’s template. If you need your own way to implement the animator, you might want to have your own version of Animation Modifier.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Reference Animation Controller** <a href="#state-name" id="state-name"></a>
 
@@ -98,7 +98,7 @@ Drag in the Animation Controller that contains the animations.
 
 Choose the layer that contains your desired Animation.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Animation State** <a href="#state-name" id="state-name"></a>
 
@@ -112,7 +112,7 @@ The duration of crossfade when the animation starts.
 
 Fade out duration, and the target is a state called “Empty” in the same layer. This is helpful because the new state might be playing animation in a different layer.
 
-### Animation Clip
+### **Animation Clip**
 
 Clicking on it brings you to the location of selected clip
 

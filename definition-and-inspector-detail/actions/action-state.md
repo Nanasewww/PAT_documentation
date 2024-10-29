@@ -17,7 +17,7 @@ layout:
 
 ## Definition
 
-An <mark style="color:orange;">**Action State**</mark> is the minimal state that describes a character’s action. It includes locomotion actions like moving, jumping, dashing, or any combat action like swinging a sword or firing a gun. It is the basic unit that adds up to the entirety of an action system in PAT. Action State by itself has very limited functionality, it is mostly a logic system that shows which state a character is in (what it is doing), and what it can do from the current state.
+An <mark style="color:orange;">**Action State**</mark> is the minimal state that describes a character’s action. It includes locomotion actions like moving, jumping, dashing, or any combat action like swinging a sword or firing a gun. It is the basic unit that adds up to the entirety of an action system in PAT. <mark style="color:orange;">Action State by itself has very limited functionality</mark>, it is mostly a logic system that shows which state a character is in (what it is doing), and what it can do from the current state. Most functionalities are fulfilled by State Modifiers.
 
 ***
 
@@ -31,7 +31,7 @@ An <mark style="color:orange;">**Action State**</mark> is the minimal state that
 
 <mark style="color:orange;">**Signals to trigger the State A**</mark>**.** For player-controlled characters, it is decided by the Input Units on Player Component.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Tag within each element is the Input Tag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Tag within each element is the Input Tag</p></figcaption></figure>
 
 You can assign tags to player input, and every time the character receives an input, it will try to trigger states using that specific tag.
 

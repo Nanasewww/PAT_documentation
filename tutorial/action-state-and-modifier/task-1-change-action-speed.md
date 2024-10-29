@@ -15,7 +15,9 @@ layout:
 
 # Task 1: Change action speed
 
-PlayerRabbit can perform a cool slashing move by pressing the left mouse button. However, if it feels too slow, how can you speed it up? Take a look at the Modifiers attached to Melee1—there’s one called Montage Speed Mod that can help you modify the slash speed.
+PlayerRabbit can perform a cool slashing move by pressing the left mouse button. However, if it feels too slow, how can you speed it up?&#x20;
+
+Take a look at the Modifiers attached to Melee1—there’s one called Montage Speed Mod that can help you modify the slash speed.
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXchhrPUkM-jDTxAgAk04TcxqKKjyaIUUWaesdXZce6TIjj1Tt7ruEVEnJ75UzCpUFsdUZtHFW0tLOlwKKt0lmwj-CIWGToAG-oXkmG1ZND9Y_1pTYk_J1xQ8LNzo1xtjxBm3vIJmcnbQlojvdZqeMYSVxk?key=p_nH-JdSTTyX01UFeuszxg" alt=""><figcaption><p>Montage Speed Mod inspector</p></figcaption></figure>
 

@@ -2,20 +2,23 @@
 
 * [Overview](README.md)
 
-## Documentation
+## Definition & Inspector Detail
 
-* [Actions](documentation/actions/README.md)
-  * [Action State](documentation/actions/action-state.md)
-  * [State Modifier](documentation/actions/state-modifier.md)
-  * [Move Set](documentation/actions/move-set.md)
-* [Tag](documentation/tag.md)
-* [Attribute](documentation/attribute.md)
-* [Effect](documentation/effect.md)
+* [Actions](definition-and-inspector-detail/actions/README.md)
+  * [Action State](definition-and-inspector-detail/actions/action-state.md)
+  * [State Modifier](definition-and-inspector-detail/actions/state-modifier.md)
+  * [Move Set](definition-and-inspector-detail/actions/move-set.md)
+* [Tag](definition-and-inspector-detail/tag.md)
+* [Attribute](definition-and-inspector-detail/attribute.md)
+* [Effect](definition-and-inspector-detail/effect.md)
+* [Locomotion](definition-and-inspector-detail/locomotion/README.md)
+  * [Locomotion Animation](definition-and-inspector-detail/locomotion/locomotion-animation.md)
 
 ## Tutorial
 
 * [Tutorial Outline](tutorial/tutorial-outline.md)
 * [Installation](tutorial/installation.md)
+* [Contents of the Assets](tutorial/contents-of-the-assets.md)
 * [Character](tutorial/character/README.md)
   * [Create a Character](tutorial/character/create-a-character.md)
 * [Player](tutorial/player/README.md)
@@ -41,16 +44,12 @@
   * [Animation Speed](tutorial/animation/animation-speed.md)
 * [Multiplayer](tutorial/multiplayer.md)
 
-## Getting Started
+## Guide
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
-
-## Basics
-
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Step-by-Step Guide](guide/step-by-step-guide.md)
+* [Step 1: Install PAT](guide/step-1-install-pat.md)
+* [Step 2: A Basic Scene](guide/step-2-a-basic-scene.md)
+* [Step 3: Character - Action States](guide/step-3-character-action-states.md)
+* [Step 4: Character - Tags](guide/step-4-character-tags.md)
+* [Practice 1: Adding your combo](guide/practice-1-adding-your-combo.md)
+* [Step 5: State Modifiers](guide/step-5-state-modifiers.md)
