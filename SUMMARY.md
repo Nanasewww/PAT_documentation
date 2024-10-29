@@ -4,15 +4,14 @@
 
 ## Definition & Inspector Detail
 
-* [Actions](definition-and-inspector-detail/actions/README.md)
-  * [Action State](definition-and-inspector-detail/actions/action-state.md)
-  * [State Modifier](definition-and-inspector-detail/actions/state-modifier.md)
-  * [Move Set](definition-and-inspector-detail/actions/move-set.md)
-* [Tag](definition-and-inspector-detail/tag.md)
-* [Attribute](definition-and-inspector-detail/attribute.md)
-* [Effect](definition-and-inspector-detail/effect.md)
-* [Locomotion](definition-and-inspector-detail/locomotion/README.md)
-  * [Locomotion Animation](definition-and-inspector-detail/locomotion/locomotion-animation.md)
+* [Actions](documentation/actions/README.md)
+  * [Action State](documentation/actions/action-state.md)
+  * [State Modifier](documentation/actions/state-modifier.md)
+  * [Move Set](documentation/actions/move-set.md)
+* [Tag](documentation/tag.md)
+* [Attribute](documentation/attribute.md)
+* [Effect](documentation/effect.md)
+* [Locomotion](definition-and-inspector-detail/locomotion.md)
 
 ## Tutorial
 
@@ -43,6 +42,7 @@
   * [Animation Event](tutorial/animation/animation-event.md)
   * [Animation Speed](tutorial/animation/animation-speed.md)
 * [Multiplayer](tutorial/multiplayer.md)
+* [Use Your Own Assets](tutorial/use-your-own-assets.md)
 
 ## Guide
 
@@ -52,4 +52,16 @@
 * [Step 3: Character - Action States](guide/step-3-character-action-states.md)
 * [Step 4: Character - Tags](guide/step-4-character-tags.md)
 * [Practice 1: Adding your combo](guide/practice-1-adding-your-combo.md)
-* [Step 5: State Modifiers](guide/step-5-state-modifiers.md)
+* [Step 5: State Modifiers](guide/step-5-state-modifiers/README.md)
+  * [Practice 1.1 & Ex: Grant Tag Mod](guide/step-5-state-modifiers/practice-1.1-and-ex-grant-tag-mod.md)
+* [Practice 1.2: Animator](guide/practice-1.2-animator.md)
+* [Step 6: Animation Montage](guide/step-6-animation-montage/README.md)
+  * [Practice 1.3: Animation Montage Mod](guide/step-6-animation-montage/practice-1.3-animation-montage-mod.md)
+* [Step 7: Trigger Animation Event](guide/step-7-trigger-animation-event/README.md)
+  * [Practice 2: Action Speed](guide/step-7-trigger-animation-event/practice-2-action-speed.md)
+* [Step 8: Attributes](guide/step-8-attributes/README.md)
+  * [Practice 3: Cost Mana](guide/step-8-attributes/practice-3-cost-mana.md)
+* [Step 9: Effects](guide/step-9-effects/README.md)
+  * [Step 9.1: Hitbox & Hurtbox](guide/step-9-effects/step-9.1-hitbox-and-hurtbox.md)
+  * [Practice 4: Attack on Hit](guide/step-9-effects/practice-4-attack-on-hit.md)
+  * [Page](guide/step-9-effects/page.md)

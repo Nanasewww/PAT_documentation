@@ -37,7 +37,7 @@ In demo scenes, you can find all the characters in <mark style="color:orange;">*
 
 Select the character you want to use in the scene Hierarchy. Right click on it and choose <mark style="color:orange;">**Prefab/Select Asset**</mark>**.**
 
-<img src="../../.gitbook/assets/image (9).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (11).png" alt="" data-size="original">
 {% endstep %}
 
 {% step %}

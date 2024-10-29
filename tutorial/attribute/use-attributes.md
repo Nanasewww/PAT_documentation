@@ -19,7 +19,7 @@ layout:
 
 ### Related Modifier
 
-To use [Attribute](../../definition-and-inspector-detail/attribute.md) for one action, you may attach <mark style="color:orange;">**UseAttributeMod**</mark> to an Action State and choose the attribute through Resource Tag.&#x20;
+To use [Attribute](../../documentation/attribute.md) for one action, you may attach <mark style="color:orange;">**UseAttributeMod**</mark> to an Action State and choose the attribute through Resource Tag.&#x20;
 
 {% hint style="info" %}
 _Typically, the current attribute amount needs to be <mark style="color:orange;">equal or greater</mark> than the required Amount for this action state to be triggered._

@@ -21,7 +21,9 @@ All tags are stored inside a script named **GamePlayTag**, you may edit it on yo
 
 Tags are toggled on the Action State component.
 
-You may also find the scriptable object named GamePlayTagHelper for non-script view.&#x20;
+You may also find the scriptable object named [<mark style="color:orange;">**GamePlayTagHelper**</mark>](#user-content-fn-1)[^1] for non-script view. Click on the helper and you can find all the tags listed in your Inspector.&#x20;
+
+> Path: _/Core/Scripts/GamePlayTags/GamePlayerTagHelper_
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdiQ8S429MtoXe9fSheGOHrfaDtfG1LRYrgU7QZUp7ohNfK28VFNN_ZZ2VMA5ImXyl9AMDm2D_LN3D_mvJctMqNii1V1bdlUohVwCkVmgfj4U5h0kVWf29PxGRY6EC7SzuCWu4ae6t_zd4aesCaJeSjBtxw?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption><p>Where the Helper is located</p></figcaption></figure>
 
@@ -35,3 +37,6 @@ You have to right click in the inspector and choose “refresh” for your chang
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdt3qG7ulS9Der5mOxqcJOfyXme32M1eUb9jEFreMu6-OQW9YYdVlEGmud0uMF2Zbor2GD7qTrTeJzoz2AVfhE_Q8A4MH-dxEyr3GIpEPHRR5uHyrDwsUQ8ElScCLJWmbGCwTMT_0qgkMuJGxiodeIFpm4K?key=Rv96SXV0rCMH8N9lwXnGWw" alt=""><figcaption><p>Copy, paste it to the folder you like, delete the original one</p></figcaption></figure>
 
 \
+
+
+[^1]: _/Core/Scripts/GamePlayTags/GamePlayerTagHelper_

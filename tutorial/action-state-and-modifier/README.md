@@ -21,12 +21,12 @@ In the Tutorial Scene, you can find a Character named PlayerRabbit. In the follo
 
 ## Related Documentation
 
-{% content-ref url="../../definition-and-inspector-detail/actions/action-state.md" %}
-[action-state.md](../../definition-and-inspector-detail/actions/action-state.md)
+{% content-ref url="../../documentation/actions/action-state.md" %}
+[action-state.md](../../documentation/actions/action-state.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../definition-and-inspector-detail/actions/state-modifier.md" %}
-[state-modifier.md](../../definition-and-inspector-detail/actions/state-modifier.md)
+{% content-ref url="../../documentation/actions/state-modifier.md" %}
+[state-modifier.md](../../documentation/actions/state-modifier.md)
 {% endcontent-ref %}
 
 

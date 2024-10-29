@@ -17,8 +17,8 @@ layout:
 
 ## **Related Documentation**
 
-{% content-ref url="../../definition-and-inspector-detail/attribute.md" %}
-[attribute.md](../../definition-and-inspector-detail/attribute.md)
+{% content-ref url="../../documentation/attribute.md" %}
+[attribute.md](../../documentation/attribute.md)
 {% endcontent-ref %}
 
 

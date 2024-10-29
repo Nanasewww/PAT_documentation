@@ -17,7 +17,7 @@ layout:
 
 ## Related Documentation
 
-{% content-ref url="../../definition-and-inspector-detail/tag.md" %}
-[tag.md](../../definition-and-inspector-detail/tag.md)
+{% content-ref url="../../documentation/tag.md" %}
+[tag.md](../../documentation/tag.md)
 {% endcontent-ref %}
 

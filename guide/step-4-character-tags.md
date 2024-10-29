@@ -51,7 +51,7 @@ Apart from the things we mentioned, there are other usage of Tags to control sta
 
 You may find full documentation on Action State's inspector details by the following link. It is quite useful when creating your own Action State.
 
-{% content-ref url="../definition-and-inspector-detail/actions/action-state.md" %}
-[action-state.md](../definition-and-inspector-detail/actions/action-state.md)
+{% content-ref url="../documentation/actions/action-state.md" %}
+[action-state.md](../documentation/actions/action-state.md)
 {% endcontent-ref %}
 
