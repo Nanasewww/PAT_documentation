@@ -25,9 +25,16 @@ T[ag system](#user-content-fn-1)[^1] is essential to PAT. <mark style="color:ora
 
 ## Tag Container
 
-At run time, Character will automatically add a Tag Container Component to itself. This stores all the Tags that a character is currently holding and is updated each frame. It is a very helpful tool for debugging if Tags were successfully granted.
+At run time, Character will <mark style="color:orange;">**automatically add a Tag Container Component**</mark> to itself, which stores all the Tags that a character is currently holding and is updated each frame. It is a very helpful tool for debugging if Tags were successfully granted.
 
-TODO: PIC
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Tag Container at runtime</p></figcaption></figure>
+
+* **Input Tags**\
+  Tags added by player input. See more details in [input.md](../tutorial/player/input.md "mention").
+* **State Tags**\
+  Tags added according to current state or related Modifiers. See more details in [#tags](actions/action-state.md#tags "mention").
+
+
 
 
 

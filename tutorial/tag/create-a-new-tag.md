@@ -29,24 +29,24 @@ Tags are toggled on the Action State component.
 
 For a non-script view, you can find a scriptable object named [<mark style="color:orange;">**GamePlayTagHelper**</mark>](#user-content-fn-2)[^2] in the same folder. Click on the helper and you can find all the tags listed in the Inspector.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Inspector view of Tag Helper</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Inspector view of Tag Helper</p></figcaption></figure>
 
 ## Instructions
 
-### Add a new tag in GamePlayTag
+### Step1: Add a new tag in GamePlayTag
 
 * Open [<mark style="color:orange;">**GamePlayTag**</mark>](#user-content-fn-3)[^3] in script view.&#x20;
 * Add a new tag with a unique number to the GamePlayTag enum.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>Example: add <em><strong>chain5</strong></em> as a new tag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption><p>Example: add <em><strong>chain5</strong></em> as a new tag</p></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 _There is no special constrain to the number except uniqueness._
 
-_However, in order to better manage the folder hierarchy, we suggest that numbers of the same group of tags should be close to each other._&#x20;
+_However, in order to better manage the folder hierarchy, we suggest that <mark style="color:red;">numbers of the same group of tags should be close to each other</mark>._&#x20;
 {% endhint %}
 
-### Refresh GamePlayTagHelper
+### Step2: Refresh GamePlayTagHelper
 
 * Back to Unity Project, click on [<mark style="color:orange;">**GamePlayTagHelper**</mark>](#user-content-fn-4)[^4] .
 * In Inspector, right click on the helper and choose <mark style="color:orange;">**Refresh**</mark> to update it.&#x20;
@@ -55,16 +55,16 @@ _However, in order to better manage the folder hierarchy, we suggest that number
 
 * After refreshing, the new tag should be listed in _<mark style="color:orange;">**Folders/Other**</mark>_.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="427"><figcaption><p>Tag Helper after refreshing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="427"><figcaption><p>Tag Helper after refreshing</p></figcaption></figure>
 
-### Fix Helper hierarchy
+### Step3: Fix Helper hierarchy
 
 * Right click on your new tag in _**Other**_ and choose <mark style="color:orange;">**Copy**</mark>.
 * Go to your target folder and <mark style="color:orange;">**click +**</mark> to add a new enum here.
 * Right click this tag and choose <mark style="color:orange;">**Paste**</mark> to move your tag to the correct hierarchy.
 * <mark style="color:orange;">**Click -**</mark> to remove your tag from _**Other**_.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="420"><figcaption><p>Tag Helper after fixing the hierarchy</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="420"><figcaption><p>Tag Helper after fixing the hierarchy</p></figcaption></figure>
 
 
 

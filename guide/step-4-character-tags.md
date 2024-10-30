@@ -1,20 +1,26 @@
 # Step 4: Character - Tags
 
-In the last article, we covered how Input Tags are used to trigger Action States. You may ask: What if I want different Action States triggered by the same Input (i.e. A light attack combo triggered by button X on your controller), how do I control what is the right State to trigger?
+## Goal
 
-In this article, we will discuss the Tag System and the Dynamic State Machine in Penguin Action Toolkit.
+Understanding Tag System on each Action State
+
+### Review
+
+So far, we covered how Input Tags are used to trigger Action States and allowed our knight to attack. You may ask: What if I want different Action States triggered by the same Input (i.e. A light attack combo all triggered by left clicking)? They are using the same input but should be different Action States. How do I control which State to trigger?
+
+In this Step, we will discuss the Tag System and the Dynamic State Machine in Penguin Action Toolkit.
 
 ***
 
 ## Tags
 
-When you start the game, you can find a Tag Container Component Attached to the character object. Note the Tag Container is only added to character at run time. It shows what Tags the character is holding. If you don't move at all, you will find the character holding an Idle Tag.
+You may think of Tags as tickets for the character to enter different Action States. Action States are triggered by corresponding _Input Tags_, but they also request a list of _Require Tags_ in order to be entered. If they cannot find the required tags in [Tag Container](step-3-character-action-states.md#tag-container), the Action State cannot be entered.
 
-TODO: PIC
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Attack1 requires character to have Idle Tag</p></figcaption></figure>
 
-You may think of Tags as tickets for the character to enter different Action States. Action States are triggered by corresponding Input Tags, but they also request a list of Require Tags in order to be entered. If they cannot find the required tags in Tag Container, the Action State cannot be entered.
+***
 
-TODO: PIC
+## Inspector
 
 *   **Require Tags**
 
@@ -28,12 +34,12 @@ TODO: PIC
         _All requirement tags must be present, or the "no requirement" box is checked for this element to be considered true._
 
 {% hint style="info" %}
-You can add new Tags into the Require Tags of TODOMELEE, and you will find the character unable to attack.
+You can add new Tags into the Require Tags of Attack1, and you will find the knight unable to attack again.
 {% endhint %}
 
 After entering the Action State, the State will also grant tags to the character. All tags in the Main Tags field will be added to the Tag Container.
 
-TODO: PIC
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 * **Main Tags**\
   Tags a character will hold if it is in this State

@@ -55,33 +55,20 @@ Specifies <mark style="color:orange;">**whether it modifies the Attribute's valu
 
 ### **Mod Pattern**
 
-#### **To Base Value**&#x20;
-
-Adds or subtracts from the actual base value, commonly used for damage, mana, or stamina.&#x20;
-
-#### **Add**&#x20;
-
-Increases or decreases the final value but will no longer influence it once the Effect is removed. This is useful for buffs like a speed boost.
-
-#### **Add Multi**
-
-Multiplies the value. Multiple Add Multis will stack together before the calculation. Similar to Add, it will no longer influence the final value once removed.
-
-#### **Final Multi**
-
-Unlike Add Multi, this does not stack. It multiplies the value directly.
-
-#### **Override**&#x20;
-
-The value is directly replaced by the override value and will no longer influence the final value once the Effect is removed. Useful for effects like reducing movement speed to zero.
-
-#### **Level**&#x20;
-
-Not used by default, but you can implement special logic by overriding the Attribute class.
-
-#### **Order**&#x20;
-
-Determines the priority between multiple Effect Mod Values. If both have the same order, the most recently added Effect will take precedence.&#x20;
+* **To Base Value** \
+  Adds or subtracts from the actual base value, commonly used for damage, mana, or stamina.&#x20;
+* **Add** \
+  Increases or decreases the final value but will no longer influence it once the Effect is removed. This is useful for buffs like a speed boost.
+* **Add Multi**\
+  Multiplies the value. Multiple Add Multis will stack together before the calculation. Similar to Add, it will no longer influence the final value once removed.
+* **Final Multi**\
+  Unlike Add Multi, this does not stack. It multiplies the value directly.
+* **Override** \
+  The value is directly replaced by the override value and will no longer influence the final value once the Effect is removed. Useful for effects like reducing movement speed to zero.
+* **Level** \
+  Not used by default, but you can implement special logic by overriding the Attribute class.
+* **Order** \
+  Determines the priority between multiple Effect Mod Values. If both have the same order, the most recently added Effect will take precedence.&#x20;
 
 \
 
