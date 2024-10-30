@@ -1,7 +1,7 @@
 ---
 icon: pen
 cover: .gitbook/assets/pat.png
-coverY: 0
+coverY: 684.1608465608466
 layout:
   cover:
     visible: true

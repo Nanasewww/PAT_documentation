@@ -28,5 +28,4 @@ Now run the game. You should find the knight attacking with a new animation when
 
 ## Question
 
-
-
+Now one action state is overriding another. We don't really want that. We want the two action states form a combo that are triggered with a fixed order. When you left click twice, you should always see the knight performing Attack1 first, then Attack2. In the next steps, we will explain how to accomplish that.

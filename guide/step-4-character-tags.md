@@ -2,7 +2,7 @@
 
 ## Goal
 
-Understanding Tag System on each Action State
+Understanding Tag System and how it forms a State Machine.
 
 ### Review
 

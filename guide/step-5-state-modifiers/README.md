@@ -1,14 +1,18 @@
 # Step 5: State Modifiers
 
+## Goal
+
+Understanding State Modifiers.
+
 ## Review
 
-We have talked about Action States and Tags and added your own State. However, it is
+We have talked about Action States and Tags and chained States together, but the game feels wrong. We want a more precise control over the States, so there comes State Modifiers.
 
 ***
 
 ## State Modifier
 
-<mark style="color:orange;">**State Modifiers**</mark> are attached to Action States. They are triggered during the state and grants different functionality to Action States. For example, <mark style="color:orange;">controlling animations, activating hitboxes, modifying movement speed</mark>, etc. Action States by themselves only form a logic chain of your character, they need State Modifiers for different functions.
+As the name suggests, they are modifying Action States. <mark style="color:orange;">**State Modifiers**</mark> only works with Action States. They are triggered during the State they are attached to and grants different functionality to the State. For example, <mark style="color:orange;">controlling animations, activating hitboxes, modifying movement speed</mark>, etc. Action States by themselves only form a logic chain of your character, they need State Modifiers for different functions.&#x20;
 
 Most modifier scripts are named as _**XXXMod**_, where <mark style="color:orange;">**Mod**</mark> stands for <mark style="color:orange;">**MODifier**</mark>. Each Modifier has a Begin and an End Timing Attribute, which defines when will this mod get activated, as well as the duration of it.
 
