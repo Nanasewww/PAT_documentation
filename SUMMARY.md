@@ -60,6 +60,7 @@
 * [Step 6: Animation Montage](guide/step-6-animation-montage.md)
 * [Step 7: Trigger Animation Event](guide/step-7-trigger-animation-event.md)
 * [Practice 1.2: Back to Grant Tag Mod](guide/practice-1.2-back-to-grant-tag-mod.md)
+* [Step 8: Animator](guide/step-8-animator.md)
 * [Step 8: Attributes](guide/step-8-attributes/README.md)
   * [Practice 3: Cost Mana](guide/step-8-attributes/practice-3-cost-mana.md)
 * [Step 9: Effects](guide/step-9-effects/README.md)
