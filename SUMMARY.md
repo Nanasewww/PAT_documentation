@@ -64,5 +64,5 @@
 * [Practice 2: Cost HP](guide/practice-2-cost-hp.md)
 * [Step 10: Effects](guide/step-10-effects/README.md)
   * [Step 10.1: Hitbox & Hurtbox](guide/step-10-effects/step-10.1-hitbox-and-hurtbox.md)
-  * [Practice 4: Attack on Hit](guide/step-10-effects/practice-4-attack-on-hit.md)
+  * [Practice 3: Attack on Hit](guide/step-10-effects/practice-3-attack-on-hit.md)
   * [Page](guide/step-10-effects/page.md)

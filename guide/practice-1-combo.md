@@ -31,7 +31,7 @@ _This practice will not be finished in this article, we will keep introducing fe
 
 ***
 
-## Step 1: Open Attack2
+## Find Attack2
 
 Find [SwordMoveset](step-3-character-action-states.md#find-swordmoveset) again. Click onto Attack2.&#x20;
 
@@ -39,7 +39,7 @@ In practice 0, we've implemented that if you left click your mouse, the knight w
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-## Step 2: Add Requirement Tag to Attack2
+## Add Requirement Tag to Attack2
 
 Now Attack2 has only one requirement apart from the input: the Idle Tag. As long as there is an Idle Tag in the Tag Container, Attack 2 is valid for triggering.&#x20;
 
@@ -63,7 +63,7 @@ For the difference of inner elements and outer elements within Require Tags, you
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Add Chain 1 to Attack2</p></figcaption></figure>
 
-## Step 3: Add Main Tag to Attack1
+## Add Main Tag to Attack1
 
 Now Attack2 requires another Chain1 Tag. If you play the game now, the character will do Attack1 again and Attack2 cannot be triggered, because <mark style="color:orange;">**nothing is granting Chain 1 Tag to the character**</mark>. We want to make Attack1 grants this tag so Attack2 can form a combo with it.
 
