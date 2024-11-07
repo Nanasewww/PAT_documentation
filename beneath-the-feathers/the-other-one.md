@@ -12,7 +12,7 @@ In these blog posts, we will review certain cases from our development, try to b
 
 When the question was asked, we could not just provide an answer. PAT uses a special input system. An input from the player is presented to the Player Component that controls the character, and it will turn the signal into a special Input Tag in order to trigger different Action States. How do we distinguish different inputs and bring them to the correct character? That's the problem we needed to figure out. We don't want to neglect the possibility, where two penguins -- or even more penguins -- can hold their hands (or flippers) and march forward together on the same screen. We should try it. Perhaps someday, someone will use it for some fun ideas. So we spent some spare time verifying whether PAT allows the existence of two controllers.
 
-We started by the attempt of finding usable API that sets a corresponding player for each Input Action. It is the instinction of us. If Unity provides that, we can use it, and the problem is solved. We had no find even after we dived into the source code of Unity itself. But we did manage to find some very interesting messages:
+We started by the attempt of finding usable API that sets a corresponding player for each Input Action. It is the intinction of us. If Unity provides that, we can use it, and the problem is solved. We had no find even after we dived into the source code of Unity itself. But we did manage to find some very interesting messages:
 
 It is a good notice for us: even Unity has in-developing stuff. The engine developers of Unity are confused and tortured by all kinds of problems just like us. All human are treated equal, in that perspective.
 

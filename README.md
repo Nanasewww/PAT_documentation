@@ -18,11 +18,13 @@ layout:
     visible: false
 ---
 
-# Welcome!
+# 🐧 Welcome!
 
 Penguin Action Toolkit new documentation site.
 
-<mark style="color:orange;">**To install the latest verion of our package**</mark>, please check the page below:
+***
+
+<mark style="color:orange;">**To install the latest version of our package**</mark>, please check the page below:
 
 {% content-ref url="tutorial/installation.md" %}
 [installation.md](tutorial/installation.md)
@@ -39,4 +41,14 @@ We recommend you go through <mark style="color:orange;">**STEP-BY-STEP GUIDE**</
 
 We do not recommend starting from building your own characters with only some snippets of tutorials, because you may find most stuff not working properly until you understand the underlying mechanics.
 {% endhint %}
+
+***
+
+And don't forget to check our favorite dev blogs! :penguin::penguin::penguin::penguin::penguin::penguin:
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+
 
