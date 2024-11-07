@@ -1,6 +1,5 @@
 ---
 icon: arrow-down-to-arc
-hidden: true
 layout:
   title:
     visible: true
@@ -16,43 +15,42 @@ layout:
 
 # Installation
 
-{% stepper %}
-{% step %}
-### Create a 3D URP project
+### Step 1: Create a new Unity project
 
-Please use Unity Version **2022.3.32f1**
-{% endstep %}
+* **Suggested Unity version**: 2022.3.3 or higher
+* [**Suggested template**](#user-content-fn-1)[^1]: URP (Universal Rendering Pipeline)
 
-{% step %}
-### Import PAT
+<figure><img src="../.gitbook/assets/1730945956416.png" alt=""><figcaption></figcaption></figure>
 
-There might be compile errors in your console due to some Unity packages missing. These packages are Input System, Cinemachine, Animation Rigging, AI Navigation.
-{% endstep %}
+### Step 2: Import UPM package
 
-{% step %}
-### Install the missing packages
+The latest Penguin Action Toolkit package is published on GitHub, and you can use <mark style="color:orange;">**either method**</mark> below to download and import it to your project.
 
-1. Open _manifest.json_ in path _YourUnityProjectFolder/Packages/manifest.json_
-2. Copy the following content into "dependencies"
+#### <mark style="color:orange;">Method 1: Add package from git URL</mark>
 
-```
-"com.unity.inputsystem": "1.7.0",
-"com.unity.cinemachine": "2.10.1",
-"com.unity.animation.rigging": "1.2.1",
-"com.unity.ai.navigation": "1.1.5"
-```
+1. Open the **Package Manager** window (Window -> Package Manager)
+2. Click the **add** ![](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/iconAdd.png) button in the status bar on the left corner. The options for adding packages appear.
+3. Select **Add package from git URL** from the add menu.
+4. Copy and paste the git link of the latest released package. \
+   _Please make sure your link is ended with "**#pat**"_
+5. Click **Add** and wait for about 2-3 minutes.&#x20;
 
-It should be like this:
+#### <mark style="color:orange;">Method 2: Add package from disk</mark>
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD\_4nXcDthLI6BUvOoBRQgV2s\_Mk\_c4SjsnoT\_4bai1jErYdhz\_zRTevaIKpG\_FUwgYsEVgZT1lUCEZBaRKtSAxyF3x8BWLhL41DEo0WpBL\_1f8lQEJby-dGx7iaWLdl8GDF\_ULhRT5ObYvLJLgQQoVKpkmTUAE?key=htNSsP1Z5pxNb19QhZc4Mg)
+1. Download the latest released package from GitHub. Make sure you have **unzipped** it.
+2. Open the **Package Manager** window (Window -> Package Manager)
+3. Click the **add** ![](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/iconAdd.png) button in the status bar on the left corner. The options for adding packages appear.
+4. Select **Add package from disk** from the add menu to bring up a file browse.&#x20;
+5. Click _package.json_ in your unzipped folder to import the package.&#x20;
+
+### Step 3: Import sample assets
+
+Since we do encourage our users to modify the core scripts, it would be better for all the assets to be mutable. Before using PAT, please make sure you've imported the <mark style="color:orange;">**General Resources**</mark> in the Samples panel.&#x20;
+
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 
-{% endstep %}
 
-{% step %}
-### Save and reload Unity
 
-1. Save the file and then return to Unity.
-2. Unity will automatically download and install the missing packages listed in manifest.json.&#x20;
-{% endstep %}
-{% endstepper %}
+
+[^1]: otherwise some demo assets may not work properly

@@ -14,8 +14,8 @@ layout:
 
 # Step 1: Install PAT
 
-{% content-ref url="../tutorial/installation.md" %}
-[installation.md](../tutorial/installation.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 **TODO: need to finish UPM package first**
