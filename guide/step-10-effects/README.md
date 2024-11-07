@@ -1,8 +1,22 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Step 10: Effects
 
 ## Goal
 
-Understand how to modify Attributes on a different PAT\_Component (Character is extended from PAT\_Component) through effects.
+* Understand how to modify Attributes on a different PAT\_Component[^1] through effects.
 
 ***
 
@@ -16,7 +30,9 @@ You might have already noticed there is a dummy capsule in the scene, and the he
 
 ## Effect
 
-In PAT, we are using Effect to modify attributes on other PAT\_Components. Effects are scriptable objects. You may find an example through Attack1. The Attack with Hitbox Mod is a State Modifier that sends a list of Effects through colliders.
+In PAT, we are <mark style="color:orange;">**using Effect to modify attributes on other PAT\_Components**</mark>.&#x20;
+
+Effects are scriptable objects. You may find an example through Attack1. The Attack with <mark style="color:orange;">**Hitbox Mod**</mark> is a State Modifier that sends a list of Effects through colliders.
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Attack with Hitbox Mod</p></figcaption></figure>
 
@@ -34,3 +50,4 @@ You will find it working just like the Use Attribute Mod, also with a Resource T
 [effect.md](../../documentation/effect.md)
 {% endcontent-ref %}
 
+[^1]: Character is extended from PAT\_Component
