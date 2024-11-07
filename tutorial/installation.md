@@ -26,8 +26,6 @@ layout:
 
 The latest Penguin Action Toolkit package is published on GitHub, and you can use <mark style="color:orange;">**either method**</mark> below to download and import it to your project.
 
-
-
 #### <mark style="color:orange;">Method 1: Add package from git URL</mark>
 
 1. Open the **Package Manager** window (Window -> Package Manager)
@@ -43,7 +41,7 @@ https://github.com/Nanasewww/penguin-action-toolkit.git#pat
 
 #### <mark style="color:orange;">Method 2: Add package from disk</mark>
 
-1. Download the latest released package from [GitHub](https://github.com/Nanasewww/penguin-action-toolkit/tree/pat). Make sure you have **unzipped** it.
+1. Download the latest released package from GitHub [\[LINK\]](https://github.com/Nanasewww/penguin-action-toolkit). Make sure you have **unzipped** it.
 2. Open the **Package Manager** window (Window -> Package Manager)
 3. Click the **add** ![](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/iconAdd.png) button in the status bar on the left corner. The options for adding packages appear.
 4. Select **Add package from disk** from the add menu to bring up a file browse.&#x20;

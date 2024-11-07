@@ -32,7 +32,7 @@ _Click on the SwordMoveset in the Inspector, and it will navigate you to the ori
 _Double click the prefab to open it._
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Inspector view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Inspector view</p></figcaption></figure>
 
 Click onto Attack1.
 

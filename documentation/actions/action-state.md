@@ -31,7 +31,7 @@ An <mark style="color:orange;">**Action State**</mark> is the minimal state that
 
 <mark style="color:orange;">**Signals to trigger the State A**</mark>**.** For player-controlled characters, it is decided by the Input Units on Player Component.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Tag within each element is the Input Tag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Tag within each element is the Input Tag</p></figcaption></figure>
 
 You can assign tags to player input, and every time the character receives an input, it will try to trigger states using that specific tag.
 

@@ -15,20 +15,31 @@ layout:
 
 # Apply Effects
 
-If a character wants to add effect to itself, you should probably use Add Effect Mod.\
+There's several way to apply Effects a Character:
+
+### Hitbox & Hurtbox
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Hitbox</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Hurtbox</p></figcaption></figure>
+
+When hitbox is activated, if collided with hurtbox, it will send all effect it holds to the hurtbox's character if that's a successful hit. Hurtbox can be invincible if the character holds it's I-Frame tag. Also, a Hitbox will only hit a Hurtbox once before reactivating.
+
+Although we used raycst, this hit detection still relies on box collision a lot, we recommend you give all Hurtbox a rigid body to enable the collision.
 
 
-If a character wants to add effect to other PAT components, you may use Attack With Hitbox Mod or Add Effect On Hit Mod. Or you can use the Add Effect Box, which needs to be attached to a trigger so that it allows designs like traps.
 
+We generally recommend you to control hitbox with _Attack with Hitbox Mod_
 
+### Add Effect Mod
 
-When choosing which Effects to apply, you can drag all the Scriptable Objects you created into the effect lists, or you can find an option called Effect Factory on scripts like Attack With Hitbox Mod. \
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>The Add Effect Mod</p></figcaption></figure>
 
+This add the effects it holds to character
 
-**Effect Factory**
+### Write Your Own Code
 
-Effect Factory is a composited effect for you to create multiple effects at once. We provide you a template called EffectFactory and a damage factory EffectFactory\_P applied that template. You may write factories for your own convenience.\
-
+Code with, there's two ways to apply an effect to a character:
 
 
 
