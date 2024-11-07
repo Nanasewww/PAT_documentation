@@ -16,8 +16,8 @@ layout:
 
 Please refer to the Installation Page for more detailed instructions:&#x20;
 
-{% content-ref url="../tutorial/installation.md" %}
-[installation.md](../tutorial/installation.md)
+{% content-ref url="../../tutorial/installation.md" %}
+[installation.md](../../tutorial/installation.md)
 {% endcontent-ref %}
 
 After you have a Unity Project with PAT installed, go to the next step.

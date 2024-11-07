@@ -32,8 +32,8 @@ Penguin Action Toolkit new documentation site.
 
 If it is your first time using PAT, please refer to the <mark style="color:orange;">**step-by-step guide**</mark> below:
 
-{% content-ref url="guide/step-by-step-guide.md" %}
-[step-by-step-guide.md](guide/step-by-step-guide.md)
+{% content-ref url="guide/step-by-step-guide/" %}
+[step-by-step-guide](guide/step-by-step-guide/)
 {% endcontent-ref %}
 
 {% hint style="warning" %}

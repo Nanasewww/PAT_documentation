@@ -37,7 +37,7 @@ Find [SwordMoveset](step-3-character-action-states.md#find-swordmoveset) again. 
 
 In practice 0, we've implemented that if you left click your mouse, the knight will always perform Attack2. It is not what we expected. We want to build a combo, which means the first click to trigger Attack 1, and the second click to trigger Attack 2.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 ## Add Requirement Tag to Attack2
 
@@ -59,9 +59,9 @@ To fix this, we want to <mark style="color:orange;">**add an additional Require 
 
 Add an inner element to the <mark style="color:orange;">**Require Tags**</mark> of Attack2, select it to be <mark style="color:orange;">**Chain1**</mark>.&#x20;
 
-For the difference of inner elements and outer elements within Require Tags, you can find more details in Action State [#inspector-details](../documentation/actions/action-state.md#inspector-details "mention").
+For the difference of inner elements and outer elements within Require Tags, you can find more details in Action State [#inspector-details](../../documentation/actions/action-state.md#inspector-details "mention").
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Add Chain 1 to Attack2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Add Chain 1 to Attack2</p></figcaption></figure>
 
 ## Add Main Tag to Attack1
 
@@ -69,7 +69,7 @@ Now Attack2 requires another Chain1 Tag. If you play the game now, the character
 
 As all Tags in Main Tags will be added to the Tag Container when that Action State is triggered, we can <mark style="color:orange;">**add Idle & Chain 1 to Attack1's Main Tag**</mark>. Now it allows Attack2 get triggered.&#x20;
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 But there is another problem: <mark style="color:orange;">**you can trigger Attack2 at any time during Attack1**</mark>.&#x20;
 

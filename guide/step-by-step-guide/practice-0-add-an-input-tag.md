@@ -24,7 +24,7 @@ layout:
 
 You might have noticed this: there exists <mark style="color:orange;">**two attack objects**</mark> in the move set prefab.
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Attack 2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Attack 2</p></figcaption></figure>
 
 Attack 2 and Attack 1 are almost identical, but only Attack 1 is triggered when you left click your mouse.&#x20;
 
@@ -32,7 +32,7 @@ The reason is simple: <mark style="color:orange;">**Attack 2 does not have an In
 
 So now let's try to add an Input Tag to this State.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Input - lightAttack</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Input - lightAttack</p></figcaption></figure>
 
 Select _light attack_ Input Tag from inspector.
 

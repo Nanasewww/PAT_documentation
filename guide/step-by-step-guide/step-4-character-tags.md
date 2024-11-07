@@ -30,7 +30,7 @@ In this Step, we will discuss the <mark style="color:orange;">**Tag System**</ma
 
 In PAT, Tags serve as tickets for the character to enter different Action States. Action States are triggered by corresponding <mark style="color:orange;">**Input Tags**</mark>, but they also request a list of <mark style="color:orange;">**Require Tags**</mark> in order to be entered. If they cannot find the required tags in [#tag-container](step-3-character-action-states.md#tag-container "mention"), the Action State cannot be entered.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Attack1 requires character to have Idle Tag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Attack1 requires character to have Idle Tag</p></figcaption></figure>
 
 ***
 
@@ -53,7 +53,7 @@ _You can add new Tags into the Require Tags of Attack1, and you will find the kn
 
 After entering the Action State, the State will also grant tags to the character. All tags in the Main Tags field will be added to the Tag Container.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 * **Main Tags**\
   Tags a character will hold if it is in this State
@@ -71,7 +71,7 @@ Apart from the things we mentioned, there are other usage of Tags to control sta
 
 You may find full documentation on Action State's inspector details by the following link. It is quite useful when creating your own Action State.
 
-{% content-ref url="../documentation/actions/action-state.md" %}
-[action-state.md](../documentation/actions/action-state.md)
+{% content-ref url="../../documentation/actions/action-state.md" %}
+[action-state.md](../../documentation/actions/action-state.md)
 {% endcontent-ref %}
 
