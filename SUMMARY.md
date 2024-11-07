@@ -15,7 +15,6 @@
 
 ## Tutorial
 
-* [Tutorial Outline](tutorial/tutorial-outline.md)
 * [Installation](tutorial/installation.md)
 * [Installation](tutorial/installation-1.md)
 * [Contents of the Assets](tutorial/contents-of-the-assets.md)

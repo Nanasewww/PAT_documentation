@@ -24,9 +24,9 @@ layout:
 
 ### Step 2: Import UPM package
 
-The latest Penguin Action Toolkit package is published on GitHub, and you can use either way below to download and import it to your project.
+The latest Penguin Action Toolkit package is published on GitHub, and you can use <mark style="color:orange;">**either method**</mark> below to download and import it to your project.
 
-#### <mark style="color:orange;">Add package from git URL</mark>
+#### <mark style="color:orange;">Method 1: Add package from git URL</mark>
 
 1. Open the **Package Manager** window (Window -> Package Manager)
 2. Click the **add** ![](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/iconAdd.png) button in the status bar on the left corner. The options for adding packages appear.
@@ -35,7 +35,7 @@ The latest Penguin Action Toolkit package is published on GitHub, and you can us
    Please make sure the link is ended with "#pat"
 5. Click **Add** and wait for about 2-3 minutes.&#x20;
 
-#### <mark style="color:orange;">Add package from disk</mark>
+#### <mark style="color:orange;">Method 2: Add package from disk</mark>
 
 1. Download the latest released package from GitHub. Make sure you have **unzipped** it.
 2. Open the **Package Manager** window (Window -> Package Manager)
