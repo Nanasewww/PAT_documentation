@@ -1,5 +1,6 @@
 ---
 icon: pen
+description: Penguin Action Toolkit new documentation site
 cover: .gitbook/assets/pat.png
 coverY: 684.1608465608466
 layout:
@@ -9,7 +10,7 @@ layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -18,9 +19,9 @@ layout:
     visible: false
 ---
 
-# 🐧 Welcome!
+# 🐧 Welcome
 
-Penguin Action Toolkit new documentation site.
+Penguin Action Toolkit (also known as PAT) is a Unity package&#x20;
 
 ***
 
@@ -30,7 +31,7 @@ Penguin Action Toolkit new documentation site.
 [installation.md](tutorial/installation.md)
 {% endcontent-ref %}
 
-If it is your first time using PAT, please refer to the <mark style="color:orange;">**step-by-step guide**</mark> below:
+If it is your first time using Penguin Action Toolkit, please first follow to the <mark style="color:orange;">**step-by-step guide**</mark> below:
 
 {% content-ref url="guide/step-by-step-guide/" %}
 [step-by-step-guide](guide/step-by-step-guide/)
