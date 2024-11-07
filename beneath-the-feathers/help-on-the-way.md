@@ -1,0 +1,21 @@
+---
+description: 'Written by: Yuanheng Qu'
+---
+
+# Help on the Way
+
+When PAT was still a Pitch Idea, we heard Jesse Schell saying this in his office: "People get used to terrible things." It was a statement that went to far for a framework that was not yet born. It was unlikely for us to deal with usability at that moment. But if it is a toolkit that serves other people that we are making, eventually someday we will fight against that statement. We heard rumors (perhaps more than just rumors) about internal tools in the large companies. People who built the tools might have to verbally teach people how to use them, those who got preached will then show the others what they learned. Ridiculous story, isn't it? So what did we do when we were trying to teach our very first internal testers how to use PAT? We talked.
+
+As the first student of learning PAT, I sometimes find it complicated to articulate how I learned to use it. As if I was in the center of an ocean at night trying to find my way through astrology. Sometimes I could be right, sometimes I wasn't. Either way I must spend some time first and then figure out which side I was on. It consumed a lot of energy, and was confusing. The confusion was in many aspects: I learned the upper level concepts of PAT first, but did not know the correct usage of the lower level Components. There were no documentation about meanings of the parameters, so I had to guess what they serve to through the naming pattern, or dive into source code and traverse through the scripts. Many Modifiers were in the Inspector, but the most important stuff were spreaded all over the place. During the process of prototyping Castlevania, I put great effort fighting against these stuff, and I won. I understood the power of PAT, proved its ability and flexibility. Nice ending, isn't it?
+
+When we did our first real playtest. We had to face all these questions from the playtesters, again: "What are these attributes for? I did not see that Checkbox. Why is there a button?" We had all these questions, yes. But if you might spend some extra time after playtest reading our code, you will have a comprehensive understanding of these questions just like a programmer in our team. Then you would be able to use PAT and build a game you have in mind. Isn't that right?
+
+"People get used to terrible things. " We should have writtern it down on our computer case, right under the sticker with our name and room number. Adaptability deceived our mind, so that questions were not questions. Gladly, some fresh brains gave us the sharp but correct feedbacks. Gladly, we asked them before it was too late. Usability was back in the discussion after we solved and proved capability. It was THE problem we had to fix after the first prototype and playtest. Documentation and tutorial is no longer a line of words in our schedule. They turned into real Google Docs and Unity Scenes. Those who are responsible for writing these docs are the two programmers tortured by the wild era of PAT. We were there, tolerating chaos, so now we may use our past to bring order to others. We changed the Unity Inspector as well: the confusing parameters were categorized, redundant data was collapsed. With a little help from our friend (ChatGPT), we got rid of a parameter that requires users to type in a string. It is now a drop-down selection box. Then the problem of Typo, which was a nightmare for all of us, is now gone forever.
+
+After the revolution, we finally solved the problem. With the Sample Scene and the documentations we provided, you should be able to build the game you want. Now everyone is happy, right?
+
+No, we don't know that. If there is something we learned from the chimney cleaning, apart from the fact that Jesse Schell was correct, we figured out we need some fresh brains to get assaulted by this information. Did the tutorials help you survive with dignity? Only those who have been there can judge. In the following days, other members of the team will be working on a brand new prototype. With PAT in their right hand, roaring and threatening to chew of their brain, and tutorials in their left hand, hopefully prevents anything terrible happens. If they can break in PAT, we can then say this with confidence: PAT is now mostly harmless.
+
+
+
+10/14/2024

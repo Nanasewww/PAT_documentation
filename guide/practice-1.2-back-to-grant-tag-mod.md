@@ -1,8 +1,22 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Practice 1.2: Back to Grant Tag Mod
 
 ## Goal
 
-Solve the chain 1 Tag problem
+* Solve the chain 1 Tag problem
 
 ***
 
