@@ -8,7 +8,7 @@ icon: hammer
 
 The easiest way is to drag a prefab from our folder
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>location of the prefab</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>location of the prefab</p></figcaption></figure>
 
 This prefab has input finding settled down and have one real camera and two virtual cameras for 3D third person game.
 

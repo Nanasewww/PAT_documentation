@@ -39,13 +39,13 @@ https://github.com/Nanasewww/penguin-action-toolkit.git#pat
 
 5. Click **Add** and wait for about 2-3 minutes.&#x20;
 
-#### ~~<mark style="color:orange;">Method 2: Add package from disk</mark>~~
+#### <mark style="color:orange;">Method 2: Add package from disk</mark>
 
-1. ~~Download the latest released package from GitHub~~ [~~\[LINK\]~~](https://github.com/Nanasewww/penguin-action-toolkit)~~. Make sure you have **unzipped** it.~~
-2. ~~Open the **Package Manager** window (Window -> Package Manager)~~
-3. ~~Click the **add**~~ ![](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/iconAdd.png) ~~button in the status bar on the left corner. The options for adding packages appear.~~
-4. ~~Select **Add package from disk** from the add menu to bring up a file browse.~~&#x20;
-5. ~~Click _package.json_ in your unzipped folder to import the package.~~&#x20;
+1. Download the latest released package from GitHub [\[LINK\]](https://github.com/Nanasewww/penguin-action-toolkit). Make sure you have **unzipped** it.
+2. Open the **Package Manager** window (Window -> Package Manager)
+3. Click the **add** ![](https://docs.unity3d.com/2022.3/Documentation/uploads/Main/iconAdd.png) button in the status bar on the left corner. The options for adding packages appear.
+4. Select **Add package from disk** from the add menu to bring up a file browse.&#x20;
+5. Click _package.json_ in your unzipped folder to import the package.&#x20;
 
 ### Step 3: Import sample assets
 

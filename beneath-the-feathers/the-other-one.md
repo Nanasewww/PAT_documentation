@@ -8,11 +8,15 @@ The power of Penguin Action Toolkit (PAT) can be brought into play on action gam
 
 In these blog posts, we will review certain cases from our development, try to bring all those decisions, aspirations, and technical details of PAT to the public. Tell the problems that were solved, share the moment that sparked. We hope these stories that are as amusing as video games themselves can be a part of PAT. It doesn't matter if you will be using PAT to make your own action game, you may always find some joy from these posts.
 
+***
+
 "Does our framework support multiplayer?" That's a very interesting question. During past internal tests, we tacitly assumed the toolkit is built for classic single-player games. From there, we had rabbit running over the moon and a robot diving into Castlevania. A single player controls a single character.
 
 When the question was asked, we could not just provide an answer. PAT uses a special input system. An input from the player is presented to the Player Component that controls the character, and it will turn the signal into a special Input Tag in order to trigger different Action States. How do we distinguish different inputs and bring them to the correct character? That's the problem we needed to figure out. We don't want to neglect the possibility, where two penguins -- or even more penguins -- can hold their hands (or flippers) and march forward together on the same screen. We should try it. Perhaps someday, someone will use it for some fun ideas. So we spent some spare time verifying whether PAT allows the existence of two controllers.
 
 We started by the attempt of finding usable API that sets a corresponding player for each Input Action. It is the intinction of us. If Unity provides that, we can use it, and the problem is solved. We had no find even after we dived into the source code of Unity itself. But we did manage to find some very interesting messages:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>TODO and TODO and TODO and ...</p></figcaption></figure>
 
 It is a good notice for us: even Unity has in-developing stuff. The engine developers of Unity are confused and tortured by all kinds of problems just like us. All human are treated equal, in that perspective.
 
@@ -25,6 +29,8 @@ Here we need to bring up how Unity's Player Input Component actually works. The 
 C# Event has its own disadvantage: we will have to do String comparison for the inputs. Every time we detects an input, we need to compare the Action name to the Actions that exist on its Action Map. We were not excited to see a lot of String comparisons, but at least the Strings that were used are from the Action Asset -- it makes it a lot more stable than using Messages. Perhaps there exists a solution that is better than this, but none of the four behaviors is perfect, so we have to settle for less. With some extra code, inputs other than moving were passed to the correct character with String comparison. Finally, two robots were taking their adventures together.
 
 Or they might be killing each other.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 This change of Input System pushed PAT forward from two sides. First, it's capable of even more things. We had never considered if it should support multiplayer, and now it already does. Second, the structure of our Sample Scene is more formal (or at least from Unity's own perspective). For developers that will use PAT, they can now see the standardized structure from our sample. In the end, after series of attempts, we proved PAT allows multiplayer. It went beyond our expectation, once more. Will someone use it to build a multiplayer game? Who knows. Maybe we should do it ourselves.
 
