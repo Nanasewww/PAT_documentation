@@ -19,8 +19,8 @@ layout:
 
 T[ag system](#user-content-fn-1)[^1] is essential to PAT. <mark style="color:orange;">**Action State’s transition logic is defined by Tags, which creates a dynamic state machine system.**</mark> Beyond that, some other components also use Tags for communication purposes. For example, you can make a character invincible by granting it invincible Tag and [Hurtbox ](#user-content-fn-2)[^2]will react to it.
 
-{% content-ref url="../tutorial/tag/create-a-new-tag.md" %}
-[create-a-new-tag.md](../tutorial/tag/create-a-new-tag.md)
+{% content-ref url="../tutorial/create-a-new-tag.md" %}
+[create-a-new-tag.md](../tutorial/create-a-new-tag.md)
 {% endcontent-ref %}
 
 ## Tag Container
@@ -30,7 +30,7 @@ At run time, Character will <mark style="color:orange;">**automatically add a Ta
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Tag Container at runtime</p></figcaption></figure>
 
 * **Input Tags**\
-  Tags added by player input. See more details in [input.md](../tutorial/player/input.md "mention").
+  Tags added by player input. See more details in [input.md](../definition-and-inspector-detail/input.md "mention").
 * **State Tags**\
   Tags added according to current state or related Modifiers. See more details in [#tags](actions/action-state.md#tags "mention").
 

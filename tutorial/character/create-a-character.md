@@ -55,12 +55,6 @@ Copy and paste the selected prefab in Project panel.&#x20;
 
 ***
 
-## Create skeleton automatically
-
-TODO <mark style="color:blue;">@Minghao</mark>
-
-***
-
 ## Create from scratches
 
 You can also create a Character from scratches. This is not the preferred way since there are many tedious steps before you can have a playable character. Unless you are very confident about your understanding of PAT’s system, we do not recommend using this approach to create characters.
@@ -91,7 +85,7 @@ Add a capsule collider or any other components required by your Motor
 * **ModelContainer**
   * **Character Model**
 *   **Hurt Box**\
-    Add a Effect Receive Box component
+    Add an Effect Receive Box component
 
     Add a Box Collider component
 

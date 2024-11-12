@@ -32,14 +32,3 @@ Collect all the states attached to its child objects at run time, so you don’t
 ### Owning States
 
 List all Action States inside this Move Set, if you are not enabling Auto Collect, you should add all States manually.
-
-
-
-TODO:
-
-Character - Move Set, Prefabs etc
-
-
-
-
-

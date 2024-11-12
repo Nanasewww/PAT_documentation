@@ -41,8 +41,8 @@ This includes some useful locomotion runtime parameters which would be very help
 * <mark style="color:orange;">**On Ground**</mark>: Whether the character is on the ground.&#x20;
 * <mark style="color:orange;">**Current Move Direction**</mark>: Current pending character move direction from player input.&#x20;
 * <mark style="color:orange;">**Current Rotate Direction**</mark>: Current pending character rotate direction controlled by player input and aimer.&#x20;
-* <mark style="color:orange;">**Current Movement**</mark>: Current movement mostly based on player input and calculated with speed and acceleration. This movement is gradually slowing down influenced by **Base Extra Data > Damp** instead of resetting to zero every FixedUpdate.&#x20;
-* <mark style="color:orange;">**Extra Movement**</mark>: Extra instant movement mostly added by root motion and modifiers. This movement is reset to zero every FixedUpdate.&#x20;
+* <mark style="color:orange;">**Current Movement**</mark>: Current movement mostly based on player input and calculated with speed and acceleration. This movement is gradually slowing down influenced by **Base Extra Data > Damp** instead of resetting to zero every Fixed Update.&#x20;
+* <mark style="color:orange;">**Extra Movement**</mark>: Extra instant movement mostly added by root motion and modifiers. This movement is reset to zero every Fixed Update.&#x20;
 
 ## Locomotion Motor
 

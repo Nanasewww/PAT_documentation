@@ -35,8 +35,8 @@ An <mark style="color:orange;">**Action State**</mark> is the minimal state that
 
 You can assign tags to player input, and every time the character receives an input, it will try to trigger states using that specific tag.
 
-{% content-ref url="../../tutorial/player/input.md" %}
-[input.md](../../tutorial/player/input.md)
+{% content-ref url="../../definition-and-inspector-detail/input.md" %}
+[input.md](../../definition-and-inspector-detail/input.md)
 {% endcontent-ref %}
 
 ### Can Repeat

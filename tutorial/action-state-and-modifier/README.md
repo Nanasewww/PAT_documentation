@@ -1,5 +1,6 @@
 ---
 icon: sword
+hidden: true
 layout:
   title:
     visible: true

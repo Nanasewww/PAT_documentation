@@ -13,14 +13,14 @@ layout:
     visible: true
 ---
 
-# Installation
+# Copy of Installation
 
 ### Step 1: Create a new Unity project
 
 * **Suggested Unity version**: 2022.3.3 or higher
 * [**Suggested template**](#user-content-fn-1)[^1]: URP (Universal Rendering Pipeline)
 
-<figure><img src="../.gitbook/assets/1730945956416.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1730945956416.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Import UPM package
 
@@ -51,7 +51,7 @@ https://github.com/Nanasewww/penguin-action-toolkit.git#pat
 
 Since we do encourage our users to modify the core scripts, it would be better for all the assets to be mutable. Before using PAT, please make sure you've imported the <mark style="color:orange;">**General Resources**</mark> in the Samples panel.&#x20;
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 
 

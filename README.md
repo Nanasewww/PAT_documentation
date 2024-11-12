@@ -27,8 +27,8 @@ Penguin Action Toolkit (also known as PAT) is a Unity package&#x20;
 
 <mark style="color:orange;">**To install the latest version of our package**</mark>, please check the page below:
 
-{% content-ref url="tutorial/installation.md" %}
-[installation.md](tutorial/installation.md)
+{% content-ref url="tutorial/installation/" %}
+[installation](tutorial/installation/)
 {% endcontent-ref %}
 
 If it is your first time using Penguin Action Toolkit, please follow to the <mark style="color:orange;">**step-by-step guide**</mark> below:

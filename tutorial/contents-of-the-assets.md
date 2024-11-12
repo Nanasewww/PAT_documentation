@@ -28,7 +28,6 @@ layout:
       * MoveSets
     * GUI
     * Player
-    * Projectile
   * Resources
     * AttributeLaw
     * EffectObj
@@ -38,11 +37,9 @@ layout:
     * CombatCore
     * Editor
     * Feedback
-    * GameFlow
     * GamePlayTags
     * GeneralTools
     * GUI
-    * InputSystem
     * Node
     * Player
 
@@ -69,8 +66,7 @@ layout:
   * <mark style="color:orange;">MoveSets</mark>
   * <mark style="color:orange;">Models</mark>
 * <mark style="color:orange;">**GUI**</mark>: general GUI for health bar and damage number
-* <mark style="color:orange;">**Player**</mark>: single player and multiple player set up
-* ~~<mark style="color:orange;">**Projectile**</mark>~~
+* <mark style="color:orange;">**Player**</mark>: single player and multiplayer set up
 
 ### Resources
 
@@ -94,13 +90,11 @@ layout:
   * EffectFactory
   * EffectTransitionTools
 * <mark style="color:orange;">**Editor**</mark>: scripts enhancing inspector's readability and usability
-* ~~Feedback:~~&#x20;
-* ~~GameFlow~~
+* <mark style="color:orange;">**Feedback:**</mark>
 * <mark style="color:orange;">**GamePlayTags**</mark>:&#x20;
 * <mark style="color:orange;">**GeneralTools**</mark>
 * <mark style="color:orange;">**GUI**</mark>: implementation for some general UI functions
-* <mark style="color:orange;">**InputSystem**</mark>: player's Input Action Asset
-* ~~Node~~
+* <mark style="color:orange;">**Node:**</mark>&#x20;
 * <mark style="color:orange;">**Player**</mark>: core player functions with input and camera
   * <mark style="color:orange;">Camera</mark>: scripts implementing different cameras
   * <mark style="color:orange;">Input</mark>: different controls for player locomotion input
@@ -108,12 +102,4 @@ layout:
 ***
 
 ## Demos
-
-
-
-## ThirdParty
-
-
-
-
 

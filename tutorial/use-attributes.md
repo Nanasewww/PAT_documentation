@@ -19,7 +19,7 @@ layout:
 
 ### Related Modifier
 
-To use [Attribute](../../documentation/attribute.md) for one action, you may attach <mark style="color:orange;">**UseAttributeMod**</mark> to an Action State and choose the attribute through Resource Tag.&#x20;
+To use [Attribute](../documentation/attribute.md) for one action, you may attach <mark style="color:orange;">**UseAttributeMod**</mark> to an Action State and choose the attribute through Resource Tag.&#x20;
 
 {% hint style="info" %}
 _Typically, the current attribute amount needs to be <mark style="color:orange;">equal or greater</mark> than the required Amount for this action state to be triggered._
@@ -32,15 +32,9 @@ _Typically, the current attribute amount needs to be <mark style="color:orange;"
 * **Amount**\
   How much a character needs to cost for entering this state. This amount will be subtracted from the current amount.
 * **Can Over Use**\
-  Even if the current attribute amount is less than the required amount, as long as it is greater than 0, it can still be triggered, and will set the current amount to 0.
+  Even if the current attribute amount is less than the required amount, as long as it is greater than 0, it can still be triggered and will set the current amount to 0.
 * **Ban Recovery**\
   If checked, the specified attribute will not start its recovery while the Agent is still in this Action State.
-
-### Learn by Doing
-
-{% content-ref url="../action-state-and-modifier/task-3-cost-mana.md" %}
-[task-3-cost-mana.md](../action-state-and-modifier/task-3-cost-mana.md)
-{% endcontent-ref %}
 
 ***
 
@@ -48,12 +42,3 @@ _Typically, the current attribute amount needs to be <mark style="color:orange;"
 
 1. You may set auto recovery through the attribute component.
 2. For other ways of recovery, you probably need to write an Effect for it.
-
-TODO
-
-
-
-
-
-
-
