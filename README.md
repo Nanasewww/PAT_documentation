@@ -21,14 +21,14 @@ layout:
 
 # 🐧 Welcome
 
-Penguin Action Toolkit (also known as PAT) is a Unity package&#x20;
+<mark style="color:orange;">**Penguin Action Toolkit (PAT)**</mark>** is a powerful action game framework which provides a general solution for all kinds of combat-heavy games.**
 
 ***
 
 <mark style="color:orange;">**To install the latest version of our package**</mark>, please check the page below:
 
-{% content-ref url="tutorial/installation/" %}
-[installation](tutorial/installation/)
+{% content-ref url="tutorial/installation.md" %}
+[installation.md](tutorial/installation.md)
 {% endcontent-ref %}
 
 If it is your first time using Penguin Action Toolkit, please follow to the <mark style="color:orange;">**step-by-step guide**</mark> below:

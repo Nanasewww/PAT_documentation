@@ -37,8 +37,7 @@
 
 ## Tutorial
 
-* [Installation](tutorial/installation/README.md)
-  * [Copy of Installation](tutorial/installation/copy-of-installation.md)
+* [Installation](tutorial/installation.md)
 * [Contents of the Assets](tutorial/contents-of-the-assets.md)
 * [Character](tutorial/character/README.md)
   * [Create a Character](tutorial/character/create-a-character.md)
