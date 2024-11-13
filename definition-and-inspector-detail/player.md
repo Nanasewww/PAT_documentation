@@ -12,4 +12,6 @@ Real camera of the game is assigned to Player instance, and virtual cameras can 
 
 Plus, local-multiplayer is possible by setting up multiple Player instance and connect with Unity's native muti-player solution.&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Set Up</strong></td><td></td><td></td><td><a href="../tutorial/set-up-player.md">set-up-player.md</a></td></tr><tr><td><strong>Input</strong></td><td></td><td></td><td><a href="input.md">input.md</a></td></tr></tbody></table>
+{% content-ref url="../tutorial/set-up-player.md" %}
+[set-up-player.md](../tutorial/set-up-player.md)
+{% endcontent-ref %}
