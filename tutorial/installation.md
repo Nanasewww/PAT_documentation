@@ -20,7 +20,7 @@ layout:
 * **Suggested Unity version**: 2022.3.3 or higher
 * [**Suggested template**](#user-content-fn-1)[^1]: URP (Universal Rendering Pipeline)
 
-<figure><img src="../../.gitbook/assets/1730945956416.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1730945956416.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2: Import package
 
@@ -31,6 +31,7 @@ The latest Penguin Action Toolkit package is published on GitHub, and you can us
 1. Download the latest version from Google Drive [\[LINK\]](https://drive.google.com/file/d/18k1a0\_f89muHBogtFbm5OTdV7PNar4J7/view?usp=sharing).
 2. Select **Custom Package** (Assets -> Import Package -> Custom Package...) to bring up a file browse.
 3. Click the download package in your folder to import the package.
+   1. Please install all dependencies required when asked by Unity
 
 #### <mark style="color:orange;">Method 2: Add package from git URL</mark>
 
@@ -52,7 +53,7 @@ https://github.com/Nanasewww/penguin-action-toolkit.git#pat
 11. Import sample assets. \
     Since we do encourage our users to modify the core scripts, it would be better for all the assets to be mutable. Before using PAT, please make sure you've imported the <mark style="color:orange;">**General Resources**</mark> in the Samples panel.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 
 
