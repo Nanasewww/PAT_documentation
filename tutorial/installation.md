@@ -15,6 +15,12 @@ layout:
 
 # Installation
 
+### Video
+
+{% embed url="https://youtu.be/_miOvejaAQ0" %}
+Package Installation
+{% endembed %}
+
 ### Step 1: Create a new Unity project
 
 * **Suggested Unity version**: 2022.3.3 or higher
