@@ -32,11 +32,11 @@ First, let's reset the Main Tag in Attack2 back to <mark style="color:orange;">*
 
 ## Add Grant Tag Mod to Attack1
 
-Grant Tag Mod extends from the base class of State Modifier. It can <mark style="color:orange;">**add a tag inside Grant Tags**</mark> at the Begin Time / Index, and remove it at End Time / Index.
+Grant Tag Mod extends from the base class of State Modifier. It can <mark style="color:orange;">**add a tag inside Grant Tags**</mark> at the Begin Time / Index and remove it at End Time / Index.
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Grant Tag Mod for Idle Tag</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Add Chain 1</p></figcaption></figure>
 
-Two Grant Tag Mods should be added to Attack1 for Idle and Chain1.
+Two Grant Tag Mods should be added to Attack1 for Idle and Chain1. Idle Tag is already provided, you may add Chain 1 on your own.
 
 * <mark style="color:orange;">**Idle Tag**</mark>\
   The Idle tag should exist in the entire Attack1 state, so the time attribute should be set to <mark style="color:orange;">begin at 0 and end at -1</mark> to cover the entire Action State.

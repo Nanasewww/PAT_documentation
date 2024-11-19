@@ -59,7 +59,7 @@ Some scripts, like Attack with Hitbox, can get effect from factory:
 
 By this, you don't need to create tons of scriptable object for different attacks. You simply record the data here and an Effect with all thos setting will be created in run time.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>How Effect Factory Looks like in code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>How Effect Factory Looks like in code</p></figcaption></figure>
 
 We encourgae you to use Factory for some script that want to apply effects dynamically. You can also write your own Factory by overriding the orignal abstract class.
 

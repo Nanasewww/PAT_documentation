@@ -16,7 +16,7 @@ layout:
 
 ## Goal
 
-* Use Input Tag to allow the knight performing other attacks.
+* Use Input Tag to allow the penguin performing other attacks.
 
 ***
 
@@ -24,7 +24,7 @@ layout:
 
 You might have noticed this: there exists <mark style="color:orange;">**two attack objects**</mark> in the move set prefab.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Attack 2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Attack 2 and Attack 1 are almost identical, but only Attack 1 is triggered when you left click your mouse.&#x20;
 
@@ -32,17 +32,17 @@ The reason is simple: <mark style="color:orange;">**Attack 2 does not have an In
 
 So now let's try to add an Input Tag to this State.
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Input - lightAttack</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p>Input - lightAttack</p></figcaption></figure>
 
 Select _light attack_ Input Tag from inspector.
 
-Now run the game. You should find the knight attacking with a new animation when you left click / press west button.
+Now run the game. You should find the penguin attacking with a new animation when you left click / press west button.
 
 ***
 
 ## Question
 
-Now <mark style="color:orange;">**one action state is overriding another**</mark>. We don't really want that. We want the two action states form a combo that are triggered with a fixed order. When you left click twice, you should always see the knight performing Attack1 first, then Attack2.&#x20;
+Now <mark style="color:orange;">**one action state is overriding another**</mark>. We don't really want that. We want the two action states form a combo that are triggered with a fixed order. When you left click twice, you should always see the penguin performing Attack1 first, then Attack2.&#x20;
 
 <details>
 

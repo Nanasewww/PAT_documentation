@@ -16,7 +16,7 @@ When the question was asked, we could not just provide an answer. PAT uses a spe
 
 We started by the attempt of finding usable API that sets a corresponding player for each Input Action. It is the intinction of us. If Unity provides that, we can use it, and the problem is solved. We had no find even after we dived into the source code of Unity itself. But we did manage to find some very interesting messages:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>TODO and TODO and TODO and ...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>TODO and TODO and TODO and ...</p></figcaption></figure>
 
 It is a good notice for us: even Unity has in-developing stuff. The engine developers of Unity are confused and tortured by all kinds of problems just like us. All human are treated equal, in that perspective.
 
@@ -30,7 +30,7 @@ C# Event has its own disadvantage: we will have to do String comparison for the 
 
 Or they might be killing each other.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This change of Input System pushed PAT forward from two sides. First, it's capable of even more things. We had never considered if it should support multiplayer, and now it already does. Second, the structure of our Sample Scene is more formal (or at least from Unity's own perspective). For developers that will use PAT, they can now see the standardized structure from our sample. In the end, after series of attempts, we proved PAT allows multiplayer. It went beyond our expectation, once more. Will someone use it to build a multiplayer game? Who knows. Maybe we should do it ourselves.
 

@@ -14,13 +14,13 @@ layout:
 
 # Step 4: Character - Tags
 
-## Goal
+Goal
 
 * Understand Tag System and how it forms a State Machine
 
 ## Review
 
-So far, you've learned how Input Tags are used to trigger Action States and allowed the knight to attack. However, you may wonder <mark style="color:orange;">**how different Action States could be triggered by the same Player Input**</mark> (i.e. A light attack combo all triggered by left clicking). They are using the same input but should be different Action States. How do I control which State to trigger?
+So far, you've learned how Input Tags are used to trigger Action States and allowed the penguin to attack. However, you may wonder <mark style="color:orange;">**how different Action States could be triggered by the same Player Input**</mark> (i.e. A light attack combo all triggered by left clicking). They are using the same input but should be different Action States. How do I control which State to trigger?
 
 In this Step, we will discuss the <mark style="color:orange;">**Tag System**</mark> and the <mark style="color:orange;">**Dynamic State Machine**</mark> in Penguin Action Toolkit.
 
@@ -30,7 +30,7 @@ In this Step, we will discuss the <mark style="color:orange;">**Tag System**</ma
 
 In PAT, Tags serve as tickets for the character to enter different Action States. Action States are triggered by corresponding <mark style="color:orange;">**Input Tags**</mark>, but they also request a list of <mark style="color:orange;">**Require Tags**</mark> in order to be entered. If they cannot find the required tags in [#tag-container](step-3-character-action-states.md#tag-container "mention"), the Action State cannot be entered.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Attack1 requires character to have Idle Tag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p>Attack1 requires character to have Idle Tag</p></figcaption></figure>
 
 ***
 
@@ -48,12 +48,12 @@ In PAT, Tags serve as tickets for the character to enter different Action States
         _All requirement tags must be present, or the "no requirement" box is checked for this element to be considered true._
 
 {% hint style="info" %}
-_You can add new Tags into the Require Tags of Attack1, and you will find the knight unable to attack again._
+_You can add new Tags into the Require Tags of Attack1, and you will find the penguin unable to attack again._
 {% endhint %}
 
 After entering the Action State, the State will also grant tags to the character. All tags in the Main Tags field will be added to the Tag Container.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 * **Main Tags**\
   Tags a character will hold if it is in this State

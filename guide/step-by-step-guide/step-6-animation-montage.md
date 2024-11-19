@@ -25,7 +25,7 @@ layout:
 
 <mark style="color:orange;">**Animations are attached to Action States by Modifiers**</mark>. We provide this <mark style="color:orange;">**Animation Montage Mod**</mark> for you to bind an Animation State from your Animator to an Action State.
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Animation Montage Mod on Attack1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 A blank Animation Montage Mod will look like this:
 

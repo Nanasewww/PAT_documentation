@@ -12,7 +12,7 @@ For our native solution, we use Unity's Input System package as dependency since
 
 Expand the Input Unit's fold out, you will see this:
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

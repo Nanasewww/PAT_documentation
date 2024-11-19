@@ -27,7 +27,7 @@ layout:
 
 Each of them is stored in an Attribute Component under the Character object or under its children.
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>Health Attribute of knight</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 At runtime, Character component will <mark style="color:orange;">**automatically collect all the Attribute Component under it**</mark>.&#x20;
 
@@ -37,13 +37,13 @@ Obviously, we don't want the attribute to stay at the initial amount forever. We
 
 In the previous articles we talked about how Tags[^1] are used to trigger and validate Action States. Apart from that, there is another usage of Tags.&#x20;
 
-We use <mark style="color:orange;">**Resource Tags**</mark> to label attributes. For example, the Stamina Attribute on the knight has a resource tag of Stamina.
+We use <mark style="color:orange;">**Resource Tags**</mark> to label attributes. For example, the Stamina Attribute on the penguin has a resource tag of Stamina.
 
 <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Resource Tag: Stamina</p></figcaption></figure>
 
 <mark style="color:orange;">**With a resource tag set, an Action State can use the tag to find its attribute.**</mark>
 
-Let's look at the locomotion move set of the knight.
+Let's look at the locomotion move set of the penguin.
 
 <figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Go to the Main Move Set</p></figcaption></figure>
 
