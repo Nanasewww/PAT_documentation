@@ -21,7 +21,11 @@ layout:
 
 # 🐧 Welcome
 
-<mark style="color:orange;">**Penguin Action Toolkit (PAT)**</mark>** is a powerful action game framework which provides a general solution for all kinds of combat-heavy games.**
+<mark style="color:orange;">**Penguin Action Toolkit (PAT)**</mark>** is a powerful action game framework which provides a general solution for all kinds of combat-heavy games.**&#x20;
+
+{% hint style="info" %}
+_We recommend you have some basic knowledge about C#, Unity animation system and Unity new input system._
+{% endhint %}
 
 ***
 
