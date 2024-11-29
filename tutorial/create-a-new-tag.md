@@ -29,7 +29,7 @@ Tags are toggled on the Action State component.
 
 For a non-script view, you can find a scriptable object named [<mark style="color:orange;">**GamePlayTagHelper**</mark>](#user-content-fn-2)[^2] in the same folder. Click on the helper and you can find all the tags listed in the Inspector.&#x20;
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Inspector view of Tag Helper</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Inspector view of Tag Helper</p></figcaption></figure>
 
 ## Instructions
 
@@ -38,7 +38,7 @@ For a non-script view, you can find a scriptable object named [<mark style="colo
 * Open [<mark style="color:orange;">**GamePlayTag**</mark>](#user-content-fn-3)[^3] in script view.&#x20;
 * Add a new tag with a unique number to the GamePlayTag enum.&#x20;
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption><p>Example: add <em><strong>chain5</strong></em> as a new tag</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt="" width="563"><figcaption><p>Example: add <em><strong>chain5</strong></em> as a new tag</p></figcaption></figure>
 
 {% hint style="warning" %}
 _There is no special constrain to the number except uniqueness._

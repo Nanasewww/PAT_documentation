@@ -53,7 +53,7 @@ _You can add new Tags into the Require Tags of Attack1, and you will find the pe
 
 After entering the Action State, the State will also grant tags to the character. All tags in the Main Tags field will be added to the Tag Container.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Main Tags**\
   Tags a character will hold if it is in this State

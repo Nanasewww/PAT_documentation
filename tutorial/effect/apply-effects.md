@@ -19,9 +19,9 @@ There's several way to apply Effects a Character:
 
 ### Hitbox & Hurtbox
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Hitbox</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Hitbox</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Hurtbox</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Hurtbox</p></figcaption></figure>
 
 When hitbox is activated, if collided with hurtbox, it will send all effect it holds to the hurtbox's character if that's a successful hit. Hurtbox can be invincible if the character holds it's I-Frame tag. Also, a Hitbox will only hit a Hurtbox once before reactivating.
 
@@ -33,7 +33,7 @@ We generally recommend you to control hitbox with _Attack with Hitbox Mod_
 
 ### Add Effect Mod
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>The Add Effect Mod</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>The Add Effect Mod</p></figcaption></figure>
 
 This add the effects it holds to character
 

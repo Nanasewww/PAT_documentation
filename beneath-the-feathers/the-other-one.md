@@ -30,7 +30,7 @@ C# Event has its own disadvantage: we will have to do String comparison for the 
 
 Or they might be killing each other.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This change of Input System pushed PAT forward from two sides. First, it's capable of even more things. We had never considered if it should support multiplayer, and now it already does. Second, the structure of our Sample Scene is more formal (or at least from Unity's own perspective). For developers that will use PAT, they can now see the standardized structure from our sample. In the end, after series of attempts, we proved PAT allows multiplayer. It went beyond our expectation, once more. Will someone use it to build a multiplayer game? Who knows. Maybe we should do it ourselves.
 

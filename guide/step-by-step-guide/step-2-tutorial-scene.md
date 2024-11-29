@@ -37,7 +37,7 @@ If you start the game, you will find yourself playing as a penguin-look characte
 
 From the hierarchy panel, you can find the <mark style="color:orange;">**MyFirstCharacter**</mark> contains the following game objects:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:orange;">**Locomotion**</mark>\
 It holds components which control how the character is moving around, including walking and roll dodging.
@@ -52,7 +52,7 @@ It holds components which control how the character is moving around, including 
 
 Under the <mark style="color:orange;">**GameFlow**</mark> object, you can see a <mark style="color:orange;">**Player**</mark> prefab.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 The <mark style="color:orange;">**Player**</mark> prefab decides which character the player is currently controlling and handles the <mark style="color:orange;">player input</mark> and <mark style="color:orange;">camera</mark> for it.&#x20;
 

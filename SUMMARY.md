@@ -57,10 +57,20 @@
   * [Animatior Controller](tutorial/animation/animatior-controller.md)
   * [Animation Event](tutorial/animation/animation-event.md)
   * [Animation Speed](tutorial/animation/animation-speed.md)
-* [Use Your Own Assets](tutorial/use-your-own-assets.md)
+* [PAT Manager](tutorial/pat-manager.md)
 
 ## Beneath the Feathers
 
 * [The Other One](beneath-the-feathers/the-other-one.md)
 * [Help on the Way](beneath-the-feathers/help-on-the-way.md)
 * [Victim or the Crime](beneath-the-feathers/victim-or-the-crime.md)
+
+## PAT Game Jam
+
+* [Save the Penguin](pat-game-jam/save-the-penguin.md)
+* [Schedule](pat-game-jam/schedule.md)
+* [Terms & Conditions](pat-game-jam/terms-and-conditions.md)
+
+## FAQ
+
+* [Change to Your Own Model](faq/change-to-your-own-model.md)

@@ -26,7 +26,7 @@ layout:
 
 Under <mark style="color:orange;">**MyFirstCharacter**</mark>, you can find <mark style="color:orange;">**SwordMoveset**</mark> Object.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click onto Attack1.
 
@@ -52,7 +52,7 @@ So how does an Action State know when it should be triggered? What allows the pe
 
 If you recall what we mentioned at the end of [step-2-tutorial-scene.md](step-2-tutorial-scene.md "mention"), the Player Component handles your inputs. Each input unit bounds an action reference from the Input Action System to an Input Tag.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Player Component from last step</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Player Component from last step</p></figcaption></figure>
 
 For example, if you input the Attack button (left clicking your mouse / west button on controller), the Player will send a Light Attack Tag to the Character, and Character will find if it matches the Action State's Input Tag.
 
@@ -68,7 +68,7 @@ _Note that it is only added to the object <mark style="color:orange;">**at runti
 
 Tag Container is a very useful tool for debugging your character, especially when the character doesn't behave as you expected. You can check whether the player input is correctly handled, or which State Tags are added to the character at this moment.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>How the Tag Container looks like if you left click your mouse</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>How the Tag Container looks like if you left click your mouse</p></figcaption></figure>
 
 ***
 

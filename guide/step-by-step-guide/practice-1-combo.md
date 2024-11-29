@@ -37,7 +37,7 @@ Find [SwordMoveset](step-3-character-action-states.md#find-swordmoveset) again. 
 
 In practice 0, we've implemented that if you left click your mouse, the penguin will always perform Attack2. It is not what we expected. We want to build a combo, which means the first click to trigger Attack 1, and the second click to trigger Attack 2.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Add Requirement Tag to Attack2
 

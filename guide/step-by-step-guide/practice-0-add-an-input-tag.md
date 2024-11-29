@@ -24,7 +24,7 @@ layout:
 
 You might have noticed this: there exists <mark style="color:orange;">**two attack objects**</mark> in the move set prefab.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Attack 2 and Attack 1 are almost identical, but only Attack 1 is triggered when you left click your mouse.&#x20;
 
