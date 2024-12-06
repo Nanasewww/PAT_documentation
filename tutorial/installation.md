@@ -34,7 +34,7 @@ The latest Penguin Action Toolkit package is published on GitHub, and you can us
 
 #### <mark style="color:orange;">Method 1: Download .unitypackage and manually import it</mark>
 
-1. Download the latest version from Google Drive [\[LINK\]](https://drive.google.com/file/d/1Sp7p73hsIoRcBWUbqNYC71ZPdxaxVNWL/view?usp=sharing).
+1. Download the latest version from Google Drive [\[LINK\]](https://drive.google.com/file/d/1qOysJDM-toKpnNn25r3pL8aniJmGl6nB/view?usp=sharing).
 2. Select **Custom Package** (Assets -> Import Package -> Custom Package...) to bring up a file browse.
 3. Click the download package in your folder to import the package.
    1. Please install all dependencies required when asked by Unity.
