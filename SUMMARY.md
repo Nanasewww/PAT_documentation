@@ -64,6 +64,7 @@
 * [The Other One](beneath-the-feathers/the-other-one.md)
 * [Help on the Way](beneath-the-feathers/help-on-the-way.md)
 * [Victim or the Crime](beneath-the-feathers/victim-or-the-crime.md)
+* [Unbroken Chain](beneath-the-feathers/unbroken-chain.md)
 
 ## PAT Game Jam
 
